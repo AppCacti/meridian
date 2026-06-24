@@ -1,0 +1,1236 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Meridian OS Workspace | Family Office Research Portal Demo</title>
+    <meta
+      name="description"
+      content="Preview the Meridian OS client workspace: a gated engagement room for mandate reviews, opportunity packs, deal metrics, source confidence and principal-ready memos."
+    />
+    <meta name="robots" content="index,follow" />
+    <link rel="canonical" href="https://meridian-deal-partners.pages.dev/client-desk" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Meridian OS Workspace | Family Office Engagement Demo" />
+    <meta property="og:description" content="A gated Meridian OS preview for family office mandate intelligence, opportunity screening and principal-ready research memos." />
+    <meta property="og:url" content="https://meridian-deal-partners.pages.dev/client-desk" />
+    <meta property="og:image" content="https://meridian-deal-partners.pages.dev/assets/meridian-private-deal-desk-hero.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="theme-color" content="#05080a" />
+    <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body class="desk-body">
+    <header class="site-header desk-header">
+      <a class="brand" href="./index.html" aria-label="Meridian Deal Partners home">
+        <span class="brand-mark" aria-hidden="true"><span>M</span></span>
+        <span>Meridian Deal Partners</span>
+      </a>
+      <nav class="nav" aria-label="Desk navigation">
+        <a href="./index.html">Home</a>
+        <a href="mailto:partners@meridiandealpartner.com?subject=Client%20Desk%20Access%20Request">Request access</a>
+      </nav>
+      <a class="header-cta" href="mailto:partners@meridiandealpartner.com?subject=Client%20Desk%20Access%20Request">Access request</a>
+    </header>
+
+    <main class="desk-page">
+      <section class="desk-gate">
+        <div class="desk-gate-copy">
+          <p class="eyebrow">Closed Meridian OS Workspace</p>
+          <h1>The private engagement room included with every Meridian mandate.</h1>
+          <p>
+            Live workspaces are issued only after engagement approval. The interactive preview below shows how a principal or CIO reviews the mandate, opportunity pipeline, fit memos, source confidence, and the next decision — without inbox clutter.
+          </p>
+          <div class="desk-gate-actions">
+            <button type="button" class="button primary" data-onb-open>Start guided onboarding</button>
+            <a class="button secondary" href="#dashboard-demo">Open the live demo</a>
+          </div>
+          <p class="desk-gate-onb-note">See how a new office is set up — mandate, preferences, and team — in under two minutes.</p>
+        </div>
+        <form class="desk-login" aria-label="Client desk access form">
+          <span>Client Access</span>
+          <label>
+            Office email
+            <input type="email" placeholder="principal@office.com" disabled />
+          </label>
+          <label>
+            Access code
+            <input type="password" placeholder="Issued privately" disabled />
+          </label>
+          <button type="button" disabled>Access issued after mandate approval</button>
+          <p>Demo only. No client data is stored or exposed on this public page.</p>
+        </form>
+      </section>
+
+      <section class="desk-demo" id="dashboard-demo" aria-label="Meridian OS workspace demo">
+        <div class="desk-demo-heading">
+          <p class="eyebrow">Live Workspace Preview</p>
+          <h2>Inside Meridian OS — the engagement room where the mandate lives.</h2>
+          <p class="desk-demo-sub">A fully interactive demo on illustrative data for a fictional office. Move between the screens, filter the pipeline, open any opportunity, and act on it the way a principal would during a review cycle.</p>
+        </div>
+
+        <div class="os-shell" aria-label="Meridian OS workspace">
+          <div class="os-topbar">
+            <div class="os-identity">
+              <img class="bh-logo" src="./assets/bartlett-hale-crest.svg" alt="Bartlett Hale Family Office crest" width="44" height="48" />
+              <div>
+                <strong>Bartlett Hale Family Office</strong>
+                <span>Meridian OS · Engagement Room</span>
+              </div>
+            </div>
+            <div class="os-status">
+              <span class="os-pill os-pill-live"><i></i>Active review cycle</span>
+              <span class="os-pill os-hide-sm">Updated 2h ago</span>
+              <span class="os-pill os-hide-sm">Principal + CIO only</span>
+              <span class="os-lock os-hide-sm" aria-label="Encrypted workspace">
+                <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="5" y="10" width="14" height="10" rx="2" stroke="currentColor" stroke-width="1.5"/><path d="M8 10V8a4 4 0 0 1 8 0v2" stroke="currentColor" stroke-width="1.5"/></svg>
+                Encrypted
+              </span>
+              <button type="button" class="os-fs-btn" data-os-fs aria-label="Toggle full screen" title="Full screen">
+                <svg class="os-fs-expand" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+                <svg class="os-fs-collapse" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 4v5H4M15 4v5h5M9 20v-5H4M15 20v-5h5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+                <span class="os-fs-label">Full screen</span>
+              </button>
+            </div>
+          </div>
+
+          <div class="os-body">
+            <aside class="os-sidebar">
+              <div class="os-ws-id">
+                <span>Mandate</span>
+                <strong>Healthcare services acquisition</strong>
+                <small>Ref. MDP-0417 · Cycle 06</small>
+              </div>
+              <nav class="os-nav" aria-label="Workspace screens">
+                <button type="button" class="os-nav-item is-active" data-os-tab="overview">
+                  <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="3" y="3" width="8" height="8" rx="1.5" stroke="currentColor" stroke-width="1.5"/><rect x="13" y="3" width="8" height="5" rx="1.5" stroke="currentColor" stroke-width="1.5"/><rect x="13" y="11" width="8" height="10" rx="1.5" stroke="currentColor" stroke-width="1.5"/><rect x="3" y="14" width="8" height="7" rx="1.5" stroke="currentColor" stroke-width="1.5"/></svg>
+                  Overview
+                </button>
+                <button type="button" class="os-nav-item" data-os-tab="board">
+                  <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="3" y="4" width="5" height="16" rx="1.5" stroke="currentColor" stroke-width="1.5"/><rect x="10" y="4" width="5" height="11" rx="1.5" stroke="currentColor" stroke-width="1.5"/><rect x="17" y="4" width="4" height="7" rx="1.5" stroke="currentColor" stroke-width="1.5"/></svg>
+                  Review Board
+                  <em data-os-count="board">5</em>
+                </button>
+                <button type="button" class="os-nav-item" data-os-tab="mandate">
+                  <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 3h9l5 5v13a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1Z" stroke="currentColor" stroke-width="1.5"/><path d="M14 3v6h6M8 13h8M8 17h5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+                  Mandate
+                </button>
+                <button type="button" class="os-nav-item" data-os-tab="pipeline">
+                  <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><circle cx="8" cy="7" r="1.6" fill="currentColor"/><circle cx="14" cy="12" r="1.6" fill="currentColor"/><circle cx="10" cy="17" r="1.6" fill="currentColor"/></svg>
+                  Pipeline
+                  <em data-os-count="pipeline">14</em>
+                </button>
+                <button type="button" class="os-nav-item" data-os-tab="intel">
+                  <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 3l1.8 4.4L18 9l-4.2 1.6L12 15l-1.8-4.4L6 9l4.2-1.6L12 3Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><path d="M18 14l.9 2.1L21 17l-2.1.9L18 20l-.9-2.1L15 17l2.1-.9L18 14Z" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/></svg>
+                  Intelligence
+                  <em class="os-em-accent">AI</em>
+                </button>
+                <button type="button" class="os-nav-item" data-os-tab="detail">
+                  <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="1.5"/><path d="m20 20-3.5-3.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+                  Opportunity Detail
+                </button>
+                <button type="button" class="os-nav-item" data-os-tab="documents">
+                  <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 4h8l6 6v10a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1Z" stroke="currentColor" stroke-width="1.5"/><path d="M12 4v6h6" stroke="currentColor" stroke-width="1.5"/></svg>
+                  Documents
+                  <em>24</em>
+                </button>
+              </nav>
+              <div class="os-side-foot">
+                <span class="os-dot-green"></span>
+                Researcher online · responses within the review cycle
+              </div>
+            </aside>
+
+            <div class="os-main">
+              <!-- OVERVIEW -->
+              <section class="os-panel is-active" data-os-panel="overview" aria-label="Overview">
+                <div class="os-panel-head">
+                  <div>
+                    <h3>Overview</h3>
+                    <p>Executive status for the current review cycle — what moved, what is ready, and the next decision.</p>
+                  </div>
+                  <span class="os-cycle-tag">Cycle 06 · Jun 2026</span>
+                </div>
+
+                <div class="os-kpi-row">
+                  <article class="os-kpi"><span>Companies screened</span><strong data-countup="286">286</strong><small class="os-up">+34 this cycle</small></article>
+                  <article class="os-kpi"><span>Mandate-fit shortlist</span><strong data-os-kpi="shortlist">32</strong><small class="os-up">+6 this cycle</small></article>
+                  <article class="os-kpi"><span>Principal memos</span><strong data-os-kpi="memos">18</strong><small data-os-kpi="ready-sub">5 awaiting review</small></article>
+                  <article class="os-kpi os-kpi-accent"><span>Est. pipeline value</span><strong data-os-kpi="ev">$1.34B</strong><small>Non-advisory estimate</small></article>
+                </div>
+
+                <article class="os-block os-lens">
+                  <div class="os-lens-head">
+                    <div><h4>Allocation lens</h4><p>See how the live pipeline maps to a target equity check.</p></div>
+                    <div class="os-lens-pick" data-os-check role="group" aria-label="Target equity check">
+                      <span data-c="25">$25M</span><span data-c="50" class="is-active">$50M</span><span data-c="75">$75M</span>
+                    </div>
+                  </div>
+                  <div class="os-lens-body" data-os-lens></div>
+                </article>
+
+                <div class="os-analytics">
+                  <article class="os-block">
+                    <div class="os-block-head"><h4>Estimated pipeline value by sub-sector</h4><span class="os-chiplabel">Non-advisory</span></div>
+                    <div data-os-barchart></div>
+                  </article>
+                  <article class="os-block">
+                    <div class="os-block-head"><h4>Pipeline by stage</h4></div>
+                    <div class="os-donut-wrap"><div data-os-donut></div><div class="os-legend" data-os-legend></div></div>
+                  </article>
+                </div>
+
+                <div class="os-overview-grid">
+                  <article class="os-block os-span2">
+                    <div class="os-block-head">
+                      <h4>Ready for your review</h4>
+                      <button type="button" class="os-link" data-os-go="board">Open review board →</button>
+                    </div>
+                    <ul class="os-ready-list" data-os-ready></ul>
+                  </article>
+
+                  <article class="os-block">
+                    <div class="os-block-head"><h4>What changed this week</h4></div>
+                    <ol class="os-feed">
+                      <li><span class="os-feed-dot"></span><p><strong>Atlas Diagnostics</strong> cleared ownership checks and moved to ready-for-review.</p><time>Today</time></li>
+                      <li><span class="os-feed-dot"></span><p><strong>Concord Dental</strong> returned to screening pending a sponsor pricing reset.</p><time>Yesterday</time></li>
+                      <li><span class="os-feed-dot"></span><p><strong>Northbridge memo</strong> upgraded after the founder succession path was validated.</p><time>2 days ago</time></li>
+                      <li><span class="os-feed-dot"></span><p><strong>3 new ophthalmology signals</strong> added to the universe from advisor channels.</p><time>4 days ago</time></li>
+                    </ol>
+                  </article>
+
+                  <article class="os-block">
+                    <div class="os-block-head"><h4>Next review call</h4></div>
+                    <div class="os-call">
+                      <strong>Thu, 18 Jun · 16:00 GMT</strong>
+                      <p>Principal + CIO. Agenda: Northbridge and Atlas advance decisions, dental watchlist, Q3 corridor weighting.</p>
+                      <button type="button" class="os-pill os-pill-quiet" data-os-toast="Agenda opened — shared with Principal + CIO.">View agenda</button>
+                    </div>
+                  </article>
+
+                  <article class="os-block os-span2">
+                    <div class="os-block-head">
+                      <h4>Coverage by corridor</h4>
+                      <button type="button" class="os-link" data-os-go="pipeline">View pipeline →</button>
+                    </div>
+                    <div class="os-bars" data-os-bars></div>
+                    <p class="os-foot-note">Corridor counts reflect actively mapped companies, not endorsed opportunities. Estimated values are non-advisory and based on public or inferred ranges.</p>
+                  </article>
+                </div>
+              </section>
+
+              <!-- REVIEW BOARD -->
+              <section class="os-panel" data-os-panel="board" aria-label="Review Board">
+                <div class="os-panel-head">
+                  <div>
+                    <h3>Review Board</h3>
+                    <p>The decision surface. Each opportunity carries a fit score and the reason it matters — open it, or act on it directly.</p>
+                  </div>
+                  <span class="os-cycle-tag"><span data-os-count="board">5</span> awaiting decision</span>
+                </div>
+                <div class="os-board" data-os-board></div>
+              </section>
+
+              <!-- MANDATE -->
+              <section class="os-panel" data-os-panel="mandate" aria-label="Mandate">
+                <div class="os-panel-head">
+                  <div>
+                    <h3>Mandate</h3>
+                    <p>The working definition of what the office is buying. Meridian screens against this; you refine it any time.</p>
+                  </div>
+                  <div class="os-complete">
+                    <span>Mandate completeness</span>
+                    <div class="os-meter"><i style="--w:92%"></i></div>
+                    <strong>92%</strong>
+                  </div>
+                </div>
+                <div class="os-mandate-grid">
+                  <div class="os-field"><span>Sectors</span><div class="os-chips"><i>Clinics</i><i>Diagnostics</i><i>Specialty care</i><i>Dental</i><i>Home care</i><i>Behavioral</i><i>AI-enabled services</i></div></div>
+                  <div class="os-field"><span>Geographies</span><div class="os-chips"><i>North America</i><i>Europe</i><i>United Kingdom</i><i>Singapore</i><i>Gulf</i></div></div>
+                  <div class="os-field"><span>Ticket size</span><strong>$25M – $150M equity</strong></div>
+                  <div class="os-field"><span>Revenue range</span><strong>$20M – $120M</strong></div>
+                  <div class="os-field"><span>Ownership preference</span><strong>Control or structured minority</strong></div>
+                  <div class="os-field"><span>Review cadence</span><strong>Weekly cycle · biweekly call</strong></div>
+                  <div class="os-field os-field-wide"><span>Priority themes</span><div class="os-chips"><i>Founder succession</i><i>Platform build</i><i>Fragmented markets</i><i>Recurring revenue</i><i>Cash-pay resilience</i><i>AI-enabled efficiency</i></div></div>
+                  <div class="os-field os-field-wide"><span>Exclusions</span><div class="os-chips os-chips-off"><i>Early-stage / pre-revenue</i><i>Single-asset turnarounds</i><i>Pure real estate</i><i>Heavy government-reimbursement risk</i></div></div>
+                  <div class="os-field"><span>Decision makers</span><strong>Principal + CIO</strong></div>
+                  <div class="os-field"><span>Capital posture</span><strong>Direct + selective co-invest</strong></div>
+                </div>
+              </section>
+
+              <!-- PIPELINE -->
+              <section class="os-panel" data-os-panel="pipeline" aria-label="Opportunity Pipeline">
+                <div class="os-panel-head">
+                  <div>
+                    <h3>Opportunity Pipeline</h3>
+                    <p>Every mapped opportunity and its current stage. Filter by stage or sub-sector, sort by fit or value, and open any row.</p>
+                  </div>
+                </div>
+                <div class="os-controls">
+                  <div class="os-filter" data-os-filter>
+                    <span class="is-active" data-f="all">All</span><span data-f="ready">Ready</span><span data-f="screening">Screening</span><span data-f="watchlist">Watchlist</span><span data-f="ticket">Fits ticket</span><span data-f="disclosed">Disclosed</span>
+                  </div>
+                  <div class="os-control-group">
+                    <label class="os-select"><span>Sub-sector</span><select data-os-sector aria-label="Filter by sub-sector"></select></label>
+                    <label class="os-select"><span>Sort</span><select data-os-sort aria-label="Sort opportunities"><option value="fit">Fit (high → low)</option><option value="ev">Est. value (high → low)</option><option value="check">Equity check (high → low)</option><option value="name">Name (A → Z)</option></select></label>
+                  </div>
+                </div>
+                <div class="os-table-wrap">
+                  <table class="os-table">
+                    <thead><tr><th>Opportunity</th><th>Sub-sector</th><th>Geography</th><th class="os-num">EV est.</th><th class="os-num">Equity check</th><th>Stage</th><th class="os-num">Fit</th><th>Updated</th></tr></thead>
+                    <tbody data-os-table></tbody>
+                  </table>
+                  <p class="os-empty-row" data-os-empty hidden>No opportunities match these filters.</p>
+                </div>
+                <p class="os-foot-note">Stages: Sourced · Screening · Memo in progress · Ready for review · Client reviewing · Watchlist · Disclosed. EV estimates are non-advisory, based on public or inferred ranges. Disclosed items are routed separately from the neutral research set.</p>
+              </section>
+
+              <!-- INTELLIGENCE -->
+              <section class="os-panel" data-os-panel="intel" aria-label="Intelligence">
+                <div class="os-panel-head">
+                  <div>
+                    <h3>Intelligence</h3>
+                    <p>The smart layer over your pipeline — AI-assisted, human-verified recommendations, what the desk has learned about your mandate, and live market signals.</p>
+                  </div>
+                  <span class="os-cycle-tag">AI-assisted · human-verified</span>
+                </div>
+
+                <article class="os-block os-intel-block">
+                  <div class="os-block-head"><h4>Recommended for your mandate</h4><span class="os-chiplabel">Human-verified</span></div>
+                  <div class="os-recs" data-os-recs></div>
+                  <p class="os-foot-note">AI-assisted matching, surfaced only after Meridian source-trail and ownership checks. Explanatory, not autonomous investment advice.</p>
+                </article>
+
+                <div class="os-intel-grid">
+                  <article class="os-block">
+                    <div class="os-block-head"><h4>What the desk has learned</h4></div>
+                    <p class="os-intel-sub">The mandate model sharpens as you act on opportunities. Current sub-sector weighting, inferred from your decisions and interest signals:</p>
+                    <div class="os-heat" data-os-heat></div>
+                    <div class="os-learn-note"><span>Pattern detected</span><p>Your interest skews toward founder-succession and cash-pay-resilient sub-sectors; the desk is up-weighting those signals and the AI-enabled healthcare lane.</p></div>
+                  </article>
+
+                  <article class="os-block">
+                    <div class="os-block-head"><h4>Live market signals</h4></div>
+                    <ol class="os-signals">
+                      <li><span class="os-sig-tag os-sig-down">Multiples</span><p>Healthcare-services M&amp;A reset to ~11.5x EV/EBITDA (2025) from ~14.5x (2024) — entry discipline favoured.</p></li>
+                      <li><span class="os-sig-tag os-sig-up">AI adoption</span><p>~66% of physicians now use clinical AI, up from 38% in 2023 — the AI-enabled lane is strengthening.</p></li>
+                      <li><span class="os-sig-tag os-sig-flat">Dental</span><p>~130 PE-backed DSO platforms active; platform pricing resetting toward 8–12x EBITDA.</p></li>
+                      <li><span class="os-sig-tag os-sig-up">Ophthalmology</span><p>Still only ~8% PE-penetrated — a long consolidation runway in a premium specialty.</p></li>
+                    </ol>
+                  </article>
+                </div>
+
+                <article class="os-block os-gov">
+                  <div class="os-block-head"><h4>Governance &amp; access</h4><span class="os-chiplabel">Tenant-isolated</span></div>
+                  <div class="os-gov-grid">
+                    <div><span class="os-gov-ico"><svg viewBox="0 0 24 24" fill="none"><rect x="5" y="10" width="14" height="10" rx="2" stroke="currentColor" stroke-width="1.5"/><path d="M8 10V8a4 4 0 0 1 8 0v2" stroke="currentColor" stroke-width="1.5"/></svg></span><strong>Encrypted &amp; isolated</strong><p>Every record carries your workspace ID. No cross-client leakage.</p></div>
+                    <div><span class="os-gov-ico"><svg viewBox="0 0 24 24" fill="none"><circle cx="9" cy="9" r="3" stroke="currentColor" stroke-width="1.5"/><path d="M4 19a5 5 0 0 1 10 0" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><circle cx="17" cy="8" r="2.4" stroke="currentColor" stroke-width="1.5"/><path d="M16 18a4 4 0 0 1 5-2.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></span><strong>Role-based access</strong><p>Principal, CIO, researcher, and external-advisor viewer permissions.</p></div>
+                    <div><span class="os-gov-ico"><svg viewBox="0 0 24 24" fill="none"><path d="M5 4h9l5 5v11a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1Z" stroke="currentColor" stroke-width="1.5"/><path d="M13 4v6h6M8 14h7M8 17h4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></span><strong>Full audit trail</strong><p>Who created, edited, and reviewed every opportunity and document.</p></div>
+                    <div><span class="os-gov-ico"><svg viewBox="0 0 24 24" fill="none"><path d="M12 3l7 3v6c0 4.4-3 7.4-7 9-4-1.6-7-4.6-7-9V6l7-3Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><path d="M9.5 12l1.8 1.8L15 10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span><strong>Conflict disclosure</strong><p>Affiliated opportunities are routed to a separate disclosed lane.</p></div>
+                  </div>
+                </article>
+              </section>
+
+              <!-- OPPORTUNITY DETAIL -->
+              <section class="os-panel" data-os-panel="detail" aria-label="Opportunity Detail">
+                <div class="os-panel-head">
+                  <div>
+                    <h3>Opportunity Detail</h3>
+                    <p>The full review page for a single opportunity — why it fits, what is unproven, and where every fact came from.</p>
+                  </div>
+                  <button type="button" class="os-link" data-os-go="board">← Back to board</button>
+                </div>
+                <div data-os-detail></div>
+              </section>
+
+              <!-- DOCUMENTS -->
+              <section class="os-panel" data-os-panel="documents" aria-label="Documents and memos">
+                <div class="os-panel-head">
+                  <div>
+                    <h3>Documents &amp; Fit Memos</h3>
+                    <p>Every output lives in the workspace, not across inboxes — memos, sector maps, source trails, and review decks.</p>
+                  </div>
+                  <span class="os-cycle-tag">24 documents</span>
+                </div>
+                <div class="os-docs" data-os-docs></div>
+
+                <div class="os-disclosed">
+                  <div class="os-disclosed-head">
+                    <span class="os-disc-flag">Affiliated / Disclosed</span>
+                    <h4>EdgeNode Health Data Analytics</h4>
+                  </div>
+                  <p>Meridian (or an affiliate) holds a vested interest in this company. It is kept in a separate disclosed lane and never mixed into the neutral research set. You decide how it is handled.</p>
+                  <div class="os-disc-row">
+                    <div><span>Conflict status</span><strong>Disclosed · approved for client view</strong></div>
+                    <div><span>Nature of interest</span><strong>Meridian network / affiliate equity</strong></div>
+                  </div>
+                  <div class="os-actions">
+                    <button type="button" class="os-act" data-os-toast="EdgeNode excluded from your review set.">Exclude</button>
+                    <button type="button" class="os-act" data-os-toast="EdgeNode moved to a separate disclosed lane.">Review separately</button>
+                    <button type="button" class="os-act os-act-yes" data-os-toast="Conflict-cleared brief requested — researcher notified.">Request conflict-cleared brief</button>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+
+        <p class="desk-disclaimer">Demo workspace using a fictional family-office identity and illustrative mandate data. Company names are composites; figures are illustrative ranges grounded in real sector multiples. Meridian operates the research desk — research, screening, and curation only, not brokerage or investment advice. Estimated pipeline value is non-advisory.</p>
+      </section>
+    </main>
+
+    <div class="os-toast-wrap" data-os-toasts aria-live="polite"></div>
+
+    <!-- live deal alert -->
+    <div class="os-alert" data-os-alert hidden role="status">
+      <span class="os-alert-glow" aria-hidden="true"></span>
+      <button type="button" class="os-alert-x" data-alert-close aria-label="Dismiss">×</button>
+      <span class="os-alert-tag"><i></i>Exclusive · Fresh</span>
+      <strong>2 AI-enabled healthcare opportunities</strong>
+      <p>Just cleared first-pass screening against your mandate. Source-trailed, ahead of broad channels, and ready for your review.</p>
+      <div class="os-alert-actions">
+        <button type="button" class="os-alert-go" data-alert-go>Review now</button>
+        <button type="button" class="os-alert-later" data-alert-close>Later</button>
+      </div>
+    </div>
+
+    <div class="os-onboard" data-onb hidden>
+      <div class="os-onboard-card" role="dialog" aria-modal="true" aria-label="Meridian OS onboarding">
+        <div class="os-onboard-head">
+          <div class="os-onboard-brand"><span class="os-orb" aria-hidden="true"></span><div><strong>Meridian OS</strong><span>New workspace setup</span></div></div>
+          <button type="button" class="os-onboard-x" data-onb-close aria-label="Close">×</button>
+        </div>
+        <div class="os-onboard-body">
+          <nav class="os-onboard-steps" data-onb-steps aria-label="Onboarding steps"></nav>
+          <div class="os-onboard-main" data-onb-main></div>
+        </div>
+        <div class="os-onboard-foot">
+          <button type="button" class="os-onboard-back" data-onb-back>← Back</button>
+          <div class="os-onboard-prog" data-onb-prog></div>
+          <button type="button" class="os-onboard-next" data-onb-next>Continue →</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="os-modal" data-os-modal hidden>
+      <div class="os-modal-backdrop" data-os-modal-close></div>
+      <div class="os-modal-card" role="dialog" aria-modal="true" aria-label="Document preview">
+        <button type="button" class="os-modal-x" data-os-modal-close aria-label="Close">×</button>
+        <div data-os-modal-body></div>
+      </div>
+    </div>
+
+    <script>
+      (function () {
+        var shell = document.querySelector('.os-shell');
+        if (!shell) return;
+
+        /* ---------- data: illustrative healthcare-services opportunities ---------- */
+        var DEALS = [
+          { id:'northbridge', name:'Northbridge Specialty Clinics', cat:'Clinics', sub:'Multi-specialty clinics', geo:'United Kingdom', region:'Europe', stage:'ready', fit:92, rev:41, ebitda:8.8, mult:10.5, signal:'Founder succession', conf:'High', updated:'Today',
+            thesis:'Founder-led group of three private clinics in a fragmented UK market with recurring private-pay revenue, durable referral relationships, and a credible buy-and-build path into adjacent specialties.',
+            growth:['3 sites · $41M revenue · $8.8M EBITDA (21% margin)','14% organic growth over trailing 12 months','Founder retirement window opening in 12–18 months','Two tuck-in targets already identified in-region'],
+            risks:['Clinical talent retention post-transition','Private-pay vs. payer mix concentration','Real-estate lease terms across sites','Depth of second-line management'],
+            sources:[['Advisor introduction','v'],['Companies House filings','v'],['Management information deck','c'],['Sector reference call','e']],
+            context:'UK specialty care is consolidating; quality founder assets are scarce and command a premium.' },
+          { id:'atlas', name:'Atlas Diagnostics Group', cat:'Diagnostics', sub:'Diagnostics labs', geo:'United States', region:'North America', stage:'ready', fit:88, rev:63, ebitda:13.4, mult:11, signal:'Expansion capital', conf:'High', updated:'1 day',
+            thesis:'Regional clinical-lab network with a mature platform actively bolting on smaller labs. Expansion capital would accelerate a proven acquisition playbook with clean ownership.',
+            growth:['$63M revenue · $13.4M EBITDA (21% margin)','Platform already integrating 2 bolt-ons / year','Reference-lab contracts with regional health systems','Scalable LIS infrastructure in place'],
+            risks:['Reimbursement-rate pressure on routine panels','Payer concentration in two states','Capex for instrument refresh','Key-person reliance in commercial team'],
+            sources:[['Banker teaser','v'],['Audited financials (NDA)','c'],['Channel checks','e'],['Public filings','v']],
+            context:'Diagnostics consolidation is accelerating as mature platforms bolt on; ~11x EBITDA is typical for quality.' },
+          { id:'cascade', name:'Cascade Home Health', cat:'Home care', sub:'Home health & hospice', geo:'United States · Pacific NW', region:'North America', stage:'client', fit:86, rev:54, ebitda:9.1, mult:8.5, signal:'Founder retiring', conf:'High', updated:'2 days',
+            thesis:'Aging-in-place tailwind with a founder-led home-health and hospice operator. Buy-and-build base across a contiguous service area with strong CMS star ratings.',
+            growth:['$54M revenue · $9.1M EBITDA (17% margin)','High CMS quality ratings across branches','Aging-in-place demand tailwind','Founder retiring; management team stays'],
+            risks:['Government-reimbursement exposure','Caregiver labor availability','Regulatory survey risk','Margin sensitivity to wage inflation'],
+            sources:[['Advisor introduction','v'],['Quality / star-rating data','v'],['Management call','c'],['Market sizing','e']],
+            context:'Home health trades 6–9x EBITDA; demand is durable but reimbursement mix matters.' },
+          { id:'halcyon', name:'Halcyon Behavioral Health', cat:'Behavioral', sub:'Outpatient behavioral (PHP/IOP)', geo:'United States · Texas', region:'North America', stage:'memo', fit:84, rev:38, ebitda:7.2, mult:10, signal:'Value-based expansion', conf:'Medium', updated:'2 days',
+            thesis:'Outpatient PHP/IOP behavioral platform riding sustained demand for mental-health capacity, with a value-based contracting angle and de-novo expansion runway.',
+            growth:['$38M revenue · $7.2M EBITDA (19% margin)','Outpatient PHP/IOP demand well above supply','De-novo expansion model proven','Early value-based contracts signed'],
+            risks:['Clinician licensing and retention','Payer-rate variability by state','Outcomes-data maturity','Compliance / documentation rigor'],
+            sources:[['Proprietary outreach','v'],['Founder call','c'],['Payer-mix analysis','e']],
+            context:'Behavioral health draws strong buyer interest; outpatient roll-ups are common and scalable.' },
+          { id:'lumen', name:'Lumen Eye & Surgical', cat:'Ophthalmology', sub:'Ophthalmology / ASC', geo:'Germany', region:'Europe', stage:'memo', fit:79, rev:47, ebitda:10.6, mult:10, signal:'Hospital carve-out', conf:'Medium', updated:'2 days',
+            thesis:'Ophthalmology and ambulatory surgery assets carved out of a hospital group. Cash-pay premium procedures and a low PE-penetration backdrop give consolidation room.',
+            growth:['$47M revenue · $10.6M EBITDA (22% margin)','High cash-pay premium-procedure mix','Carve-out from a non-core hospital division','ASC capacity available to scale'],
+            risks:['Carve-out / TSA complexity','Surgeon partnership economics','Cross-border governance','Equipment capex cycle'],
+            sources:[['Corporate carve-out process','v'],['Carve-out P&L (NDA)','c'],['Clinical reference call','e']],
+            context:'Only ~8% of ophthalmologists sit in PE-backed groups; the specialty trades 8–11x with cash-pay upside.' },
+          { id:'pinnacle', name:'Pinnacle Orthopedics', cat:'Specialty care', sub:'MSK / orthopedics MSO', geo:'United States · Florida', region:'North America', stage:'screening', fit:81, rev:72, ebitda:15.1, mult:11, signal:'Physician partnership', conf:'Medium', updated:'3 days',
+            thesis:'Physician-owned orthopedics MSO with ASC and ancillary revenue. A structured-minority partnership preserves physician alignment while funding ancillary expansion.',
+            growth:['$72M revenue · $15.1M EBITDA (21% margin)','Owned ASC + imaging + PT ancillaries','Physician partnership model intact','MSK demand structurally growing'],
+            risks:['Physician compensation realignment','ASC out-of-network dynamics','Ancillary regulatory scrutiny','Integration of multiple sites'],
+            sources:[['Banker outreach','v'],['Ancillary revenue build','e'],['Physician group call','c']],
+            context:'MSK/ortho MSOs are actively consolidating; ancillary mix drives the multiple.' },
+          { id:'greycoat', name:'Greycoat Fertility', cat:'Specialty care', sub:'Fertility / IVF network', geo:'United Kingdom', region:'Europe', stage:'sourced', fit:76, rev:33, ebitda:7.6, mult:12, signal:'Cash-pay growth', conf:'Medium', updated:'4 days',
+            thesis:'Private-pay IVF network with strong outcomes and brand. Fertility demand and a near-entirely cash-pay model support a premium multiple and de-novo growth.',
+            growth:['$33M revenue · $7.6M EBITDA (23% margin)','Near-100% cash-pay revenue','Strong published success rates','De-novo clinic expansion runway'],
+            risks:['Clinician (embryologist) scarcity','Regulatory (HFEA) oversight','Brand / outcomes reputational risk','Single-country concentration'],
+            sources:[['Proprietary sourcing','v'],['Outcomes data','v'],['Founder call','c']],
+            context:'Cash-pay specialties (fertility, derm, ophthalmology) consistently trade above reimbursement-dependent peers.' },
+          { id:'brightpath', name:'Brightpath Dermatology', cat:'Specialty care', sub:'Dermatology / med-aesthetics', geo:'United States', region:'North America', stage:'sourced', fit:83, rev:58, ebitda:13.3, mult:11, signal:'Fragmented market', conf:'Medium', updated:'5 days',
+            thesis:'Dermatology and med-aesthetics group with a high cash-pay cosmetic mix in a deeply fragmented market — a classic platform-build with strong same-store economics.',
+            growth:['$58M revenue · $13.3M EBITDA (23% margin)','High-margin cosmetic / cash-pay mix','Fragmented market with abundant add-ons','Strong same-clinic growth'],
+            risks:['Provider recruitment','Cosmetic demand cyclicality','Brand consistency across sites','Medical vs. cosmetic payer mix'],
+            sources:[['Channel introduction','v'],['Same-store data','e'],['Management deck','c']],
+            context:'Dermatology / med-aesthetics command premium multiples on cash-pay resilience.' },
+          { id:'kestrel', name:'Kestrel Veterinary Group', cat:'Veterinary', sub:'Veterinary services', geo:'United States', region:'North America', stage:'screening', fit:80, rev:67, ebitda:14.1, mult:12, signal:'Recurring revenue', conf:'Medium', updated:'4 days',
+            thesis:'Multi-site veterinary group with recurring wellness-plan revenue and a fragmented backdrop. Premium category with durable demand and a clear consolidation path.',
+            growth:['$67M revenue · $14.1M EBITDA (21% margin)','Recurring wellness-plan subscriptions','Fragmented, under-consolidated regions','Resilient consumer demand'],
+            risks:['Veterinarian labor shortage','Wage inflation','Same-store traffic normalization','Multiple discipline vs. larger consolidators'],
+            sources:[['Banker teaser','v'],['Wellness-plan cohort data','e'],['Owner call','c']],
+            context:'Veterinary services trade at premium multiples (10–13x) on recurring revenue and fragmentation.' },
+          { id:'helvetia', name:'Helvetia Home Infusion', cat:'Home care', sub:'Home infusion', geo:'Switzerland', region:'Europe', stage:'sourced', fit:78, rev:49, ebitda:11.3, mult:10.5, signal:'Scalable platform', conf:'Medium', updated:'6 days',
+            thesis:'Home-infusion provider in a scalable, favorably-reimbursed category. Clinical complexity creates a moat; expansion across DACH region is the build thesis.',
+            growth:['$49M revenue · $11.3M EBITDA (23% margin)','Favorable reimbursement direction','Clinical-complexity moat','DACH-region expansion runway'],
+            risks:['Pharmacy / clinical staffing','Cross-border regulatory variance','Payer contracting','Drug-cost pass-through terms'],
+            sources:[['Proprietary outreach','v'],['Reimbursement analysis','e'],['Management call','c']],
+            context:'Home-infusion is among the higher-multiple subsectors on scalability and reimbursement direction.' },
+          { id:'concord', name:'Concord Dental Partners', cat:'Dental', sub:'Dental (DSO)', geo:'United Kingdom', region:'Europe', stage:'screening', fit:71, rev:29, ebitda:6.2, mult:8, signal:'Pricing reset', conf:'Medium', updated:'Yesterday',
+            thesis:'Mid-size dental group with an attractive footprint, returned to screening while sponsor pricing expectations reset to a defensible platform-level multiple.',
+            growth:['$29M revenue · $6.2M EBITDA (21% margin)','Contiguous multi-practice footprint','Mix of NHS and private revenue','Add-on pipeline available'],
+            risks:['Sponsor pricing expectations','NHS-contract exposure','Associate recruitment','Integration overhang'],
+            sources:[['Advisor process','v'],['Practice-level P&L','c'],['Market comps','e']],
+            context:'~130 PE-backed DSO platforms are active; platforms clear 8–12x, small groups 5–7x.' },
+          { id:'aldgate', name:'Aldgate Urgent Care', cat:'Clinics', sub:'Urgent care / primary', geo:'United Kingdom', region:'Europe', stage:'watchlist', fit:64, rev:26, ebitda:3.9, mult:7, signal:'Reimbursement risk', conf:'Low', updated:'1 wk',
+            thesis:'Urgent-care footprint with convenient locations, held on watchlist while payer-mix and reimbursement risk are clarified against the mandate exclusion on heavy government exposure.',
+            growth:['$26M revenue · $3.9M EBITDA (15% margin)','Convenient high-footfall locations','Brand recognition locally'],
+            risks:['Heavy reimbursement exposure (mandate exclusion)','Thin margins','Staffing volatility','Limited pricing power'],
+            sources:[['Inbound teaser','v'],['Payer-mix review','e']],
+            context:'Held against the mandate exclusion on heavy government-reimbursement risk.' },
+          { id:'sentinel', name:'Sentinel Diagnostics SG', cat:'Diagnostics', sub:'Diagnostic imaging', geo:'Singapore', region:'Asia · Singapore + Gulf', stage:'watchlist', fit:67, rev:44, ebitda:8.5, mult:9, signal:'Valuation mismatch', conf:'Low', updated:'1 wk',
+            thesis:'Diagnostic-imaging operator in Singapore held on watchlist until valuation expectations reset; revisit after the next funding milestone clarifies pricing.',
+            growth:['$44M revenue · $8.5M EBITDA (19% margin)','Modern imaging estate','Strong metro catchment'],
+            risks:['Vendor valuation expectations','Equipment capex intensity','Single-market concentration','Radiologist supply'],
+            sources:[['Regional advisor','v'],['Comps analysis','e']],
+            context:'Holding until valuation expectations reset to a defensible range.' },
+          { id:'edgenode', name:'EdgeNode Health Data Analytics', cat:'Data', sub:'Healthcare data / analytics', geo:'United States', region:'North America', stage:'disclosed', fit:0, rev:22, ebitda:4.0, mult:0, signal:'Affiliated / disclosed', conf:'—', updated:'1 wk',
+            disclosed:true, thesis:'Healthcare-data and analytics company in which Meridian (or an affiliate) holds a vested interest. Routed to the disclosed lane and excluded from neutral review.',
+            growth:[],risks:[],sources:[],context:'Disclosed — handled separately from the neutral research set.' },
+          /* --- fresh AI-enabled deals, revealed by the live alert --- */
+          { id:'aria', name:'Aria Health AI', cat:'AI-enabled', sub:'AI-enabled diagnostics', geo:'United States', region:'North America', stage:'ready', fit:90, rev:36, ebitda:7.9, mult:13, signal:'AI clinical decision support', conf:'High', updated:'New', pending:true, fresh:true,
+            thesis:'Applied-AI imaging-triage and clinical-decision-support platform embedded in health-system workflows, with recurring multi-year contracts and a founder-led clinical team.',
+            growth:['$36M revenue · $7.9M EBITDA (22% margin)','Recurring multi-year health-system contracts','Proprietary labeled clinical dataset','Founder-led; clinical advisors retained'],
+            risks:['Regulatory / clinical-validation pathway','Model governance and audit requirements','Health-system sales cycles','ML talent retention'],
+            sources:[['Proprietary founder intro','v'],['Contract schedule (NDA)','c'],['Clinical reference call','e']],
+            context:'AI-enabled healthcare blends software margins with services stickiness; quality assets are scarce and competitive.' },
+          { id:'cortex', name:'Cortex Care Systems', cat:'AI-enabled', sub:'AI care-coordination', geo:'United Kingdom', region:'Europe', stage:'ready', fit:87, rev:28, ebitda:6.4, mult:12.5, signal:'AI workflow platform', conf:'High', updated:'New', pending:true, fresh:true,
+            thesis:'AI workflow and care-coordination layer for specialty clinics, sold as software-plus-services with high net revenue retention and a clear cross-border expansion path.',
+            growth:['$28M revenue · $6.4M EBITDA (23% margin)','High net revenue retention','Embedded in clinical workflows (sticky)','Cross-border (EU) expansion runway'],
+            risks:['Data-protection / clinical compliance','Integration depth vs. incumbents','Reimbursement-linked ROI proof','Scaling implementation team'],
+            sources:[['Advisor introduction','v'],['Cohort retention data','e'],['Management call','c']],
+            context:'AI-enabled care platforms are an emerging premium category; defensibility comes from workflow lock-in and data.' }
+        ];
+
+        /* ---------- deep institutional memos (market figures cross-checked, 2025) ---------- */
+        var MEMOS = {
+          northbridge: {
+            rec:'Advance to first-round diligence',
+            overview:'Founder-owned group of three private multi-specialty clinics in the UK generating ~$41M revenue and ~$8.8M EBITDA (21% margin) with a high private-pay mix and ~14% trailing organic growth. The founder is approaching a 12–18 month retirement window, creating a clean control entry with management continuity.',
+            market:'UK private healthcare services are consolidating as founder-led assets reach succession. Healthcare-services M&A cleared ~11.5x EV/EBITDA on a 2025 median (down from ~14.5x in 2024) across 960+ closed deals. Scarcity of well-run, multi-site founder groups supports premium pricing for credible platforms.',
+            levers:['Buy-and-build — two in-region tuck-ins already identified','Margin expansion via central procurement and shared back-office','Payer-mix optimisation toward higher private-pay','De-novo expansion into adjacent specialties'],
+            mitig:['Founder earn-out plus a retention pool for key clinicians','Diversify referral channels; validate payer contracts in diligence','Review lease terms and sale-leaseback optionality','Budget for a hired CEO/COO layer beneath the founder'],
+            diligence:['Quality-of-earnings and run-rate EBITDA confirmation','Private-pay vs NHS mix and payer-contract durability','Clinician contracts, tenure, and retention exposure','Tuck-in target quality and integration plan','CQC standing and any open regulatory items'],
+            structure:'Illustrative framing: control acquisition at ~9–11x EBITDA with founder earn-out and equity rollover; estimated equity check $25–45M. Non-advisory and subject to diligence.',
+            decision:'Approve advisor call, ownership confirmation, and the first diligence request list.',
+            kpis:{ 'Organic growth':'~14%', 'Revenue mix':'High private-pay' } },
+          atlas: {
+            rec:'Advance to first-round diligence',
+            overview:'Regional US clinical-laboratory network (~$63M revenue, ~$13.4M EBITDA, 21% margin) running a proven bolt-on playbook (~2 acquisitions/yr) with reference-lab contracts across regional health systems and scalable LIS infrastructure. Expansion capital would accelerate an established platform with clean ownership.',
+            market:'The US clinical-laboratory market is ~$47B and growing ~6–9% annually, with North America ~49% of global volume. Rising assay-validation and quality-system costs ($0.5–5M per assay) are squeezing sub-scale labs and accelerating consolidation into mature platforms. Quality diagnostics platforms transact around ~11x EBITDA; oncology/molecular testing compounds ~10%+.',
+            levers:['Accelerate the bolt-on programme with growth capital','Mix-shift toward higher-value oncology / molecular testing','Operating leverage on existing LIS and lab footprint','Expand health-system reference contracts'],
+            mitig:['Shift mix toward differentiated, less reimbursement-sensitive tests','Diversify payer and geographic base via bolt-ons','Phase instrument capex; evaluate sale-leaseback','Deepen and incentivise the commercial bench'],
+            diligence:['Test-menu mix and reimbursement sensitivity by payer','Organic vs acquired growth split','Bolt-on pipeline, pricing, and integration track record','Capex schedule and instrument refresh needs','Health-system contract terms and renewals'],
+            structure:'Illustrative: structured growth investment or control at ~10–12x EBITDA; estimated check $40–80M depending on structure. Non-advisory; subject to diligence.',
+            decision:'Approve management session, QoE scope, and bolt-on pipeline review.',
+            kpis:{ Cadence:'Platform + ~2 bolt-ons/yr', Contracts:'Health-system reference' } },
+          cascade: {
+            rec:'Advance to diligence — confirm reimbursement durability',
+            overview:'Founder-led home-health and hospice operator (~$54M revenue, ~$9.1M EBITDA, 17% margin) with high CMS star ratings across a contiguous Pacific-Northwest service area. The founder is retiring with the management team staying — a buy-and-build base in a demographically-driven category.',
+            market:'US home-health and hospice demand is structurally driven by 77M+ Americans aged 65+; the hospice market alone is ~$30B and growing mid-to-high single digits, with PE ownership accelerating. Reimbursement mix is the key value driver; assets trade ~6–9x EBITDA, with high CMS-star operators at the top of the range.',
+            levers:['Buy-and-build across an under-consolidated region','Lift episode volume via referral-source expansion','Mix-shift toward higher-acuity hospice','Quality-rating premium supports payer positioning'],
+            mitig:['Stress-test reimbursement scenarios; lean on quality-rating premium','Build caregiver recruiting and retention pipeline','Compliance / survey-readiness audit pre-close','Model wage inflation into the base case'],
+            diligence:['Reimbursement mix and exposure to rate changes','CMS star ratings and survey history','Caregiver turnover and recruitment pipeline','Referral-source concentration','Hospice vs home-health margin bridge'],
+            structure:'Illustrative: control acquisition at ~7–9x EBITDA with management rollover; estimated equity check $30–50M. Non-advisory.',
+            decision:'Approve reimbursement deep-dive and management-continuity plan.',
+            kpis:{ Quality:'High CMS stars', Tailwind:'77M+ aged 65+' } },
+          halcyon: {
+            rec:'Progress memo to principal review',
+            overview:'Outpatient behavioral-health platform (PHP/IOP) in Texas, ~$38M revenue and ~$7.2M EBITDA (19% margin), with a proven de-novo model and early value-based contracts, in a category where demand structurally exceeds supply.',
+            market:'US behavioral health is a ~$93–97B market; outpatient psychiatry (~$16B) is compounding ~10%+ as access expands. PHP/IOP programs reimburse above standard outpatient and raise revenue per patient. Consolidation is active — 2025 saw multi-clinic roll-ups combining 80+ locations across states. Outpatient platforms trade ~10x EBITDA.',
+            levers:['De-novo expansion of PHP/IOP sites','Higher-acuity PHP/IOP reimburses above standard outpatient','Value-based contracting upside','In-market tuck-ins of independent practices'],
+            mitig:['Centralised clinician recruiting and licensing pipeline','Diversify payers; model rate variability by state','Invest in outcomes-measurement infrastructure','Compliance and documentation audit pre-close'],
+            diligence:['Payer mix and rate durability by state','Clinician capacity, licensing, and utilisation','De-novo unit economics and ramp curves','Outcomes-data maturity and value-based exposure','Documentation / compliance review'],
+            structure:'Illustrative: control or structured majority at ~9–11x EBITDA; estimated check $30–55M. Non-advisory.',
+            decision:'Finalise the fit memo and schedule principal review.',
+            kpis:{ Demand:'Supply-constrained', Model:'Proven de-novo' } },
+          lumen: {
+            rec:'Progress memo — scope carve-out complexity',
+            overview:'Ophthalmology and ambulatory-surgery assets (~$47M revenue, ~$10.6M EBITDA, 22% margin) being carved out of a German hospital group, with a high cash-pay premium-procedure mix and available ASC capacity to scale.',
+            market:'Ophthalmology is among the highest-valued physician specialties — platforms have transacted at 12–20x EBITDA (8–11x for smaller groups) — yet historically only ~8% of ophthalmologists sat in PE-backed groups, leaving a long consolidation runway. Cash-pay premium procedures (cataract / refractive) underpin resilient margins.',
+            levers:['Consolidation runway in an under-penetrated specialty','Cash-pay premium procedures drive resilient margin','Utilise spare ASC capacity','Surgeon partnership to align growth'],
+            mitig:['Detailed carve-out / TSA planning and stand-up budget','Structured surgeon partnership and incentives','Local governance and management layer','Phase equipment capex'],
+            diligence:['Carve-out perimeter, stranded costs, and TSA scope','Surgeon contracts and partnership economics','Cash-pay vs reimbursed procedure mix','ASC utilisation and capacity','Cross-border tax / structuring'],
+            structure:'Illustrative: carve-out acquisition at ~9–11x EBITDA (specialty premium); estimated check $45–75M plus stand-up costs. Non-advisory.',
+            decision:'Scope the carve-out workstream and confirm surgeon alignment.',
+            kpis:{ 'PE penetration':'~8% historically', Mix:'Cash-pay premium' } },
+          pinnacle: {
+            rec:'Continue screening — confirm physician alignment',
+            overview:'Physician-owned orthopedics MSO in Florida (~$72M revenue, ~$15.1M EBITDA, 21% margin) with owned ASC, imaging, and PT ancillaries. A structured-minority partnership preserves physician alignment while funding ancillary expansion.',
+            market:'MSK / orthopedics is consolidating into physician-aligned MSOs, with ancillary revenue (ASC, imaging, PT) driving valuation. Structured-minority partnerships preserve physician alignment while funding growth; quality MSOs transact at premium healthcare-services multiples on a backdrop of structurally rising MSK demand.',
+            levers:['Ancillary expansion (ASC, imaging, PT)','Structurally growing MSK demand','Add-on physician groups in-market','Operating leverage across sites'],
+            mitig:['Structured minority with aligned physician economics','Model in-network vs out-of-network ASC scenarios','Regulatory review of ancillary arrangements','Phased, playbook-driven integration'],
+            diligence:['Physician compensation and partnership terms','ASC payer mix and out-of-network exposure','Ancillary revenue durability and compliance','Site-level economics and integration plan'],
+            structure:'Illustrative: structured minority at ~10–12x EBITDA preserving physician control; estimated check $35–70M. Non-advisory.',
+            decision:'Confirm physician-alignment terms before progressing to memo.',
+            kpis:{ Ancillaries:'ASC + imaging + PT', Demand:'Rising MSK volume' } },
+          greycoat: {
+            rec:'Advance from sourcing to screening',
+            overview:'Private-pay IVF network in the UK (~$33M revenue, ~$7.6M EBITDA, 23% margin) with strong published success rates, a near-100% cash-pay model, and de-novo expansion runway.',
+            market:'Fertility services is a ~$74B global market growing ~11–14% annually, and IVF is largely cash-pay given limited insurance coverage — supporting premium, resilient economics. Demand drivers (delayed family formation, expanding access) underpin a long de-novo and consolidation runway.',
+            levers:['De-novo clinic expansion','Brand- and outcomes-led demand capture','Cash-pay pricing resilience','Add-on of independent clinics'],
+            mitig:['Embryologist recruiting and training pipeline','Robust HFEA compliance and quality systems','Outcomes governance to protect brand','International expansion optionality'],
+            diligence:['Success-rate methodology and benchmarking','Embryologist capacity and retention','HFEA compliance and inspection history','Cash-pay pricing and demand elasticity'],
+            structure:'Illustrative: control at ~11–13x EBITDA (cash-pay premium); estimated check $35–55M. Non-advisory.',
+            decision:'Move to screening; request outcomes and capacity data.',
+            kpis:{ Revenue:'~100% cash-pay', Growth:'De-novo runway' } },
+          brightpath: {
+            rec:'Advance from sourcing to screening',
+            overview:'Dermatology and medical-aesthetics group (~$58M revenue, ~$13.3M EBITDA, 23% margin) with a high cash-pay cosmetic mix, strong same-clinic growth, and abundant add-on supply in a fragmented market.',
+            market:'Dermatology and medical-aesthetics saw heavy PE investment through 2025; practices trade ~6–12x EBITDA depending on cash-pay cosmetic mix. A deeply fragmented market of thousands of independent practices supports a long buy-and-build runway with strong same-clinic economics.',
+            levers:['Buy-and-build across a fragmented market','Mix-shift toward cosmetic / cash-pay','Provider recruitment to add capacity','Brand and service standardisation'],
+            mitig:['Provider pipeline and equity-style incentives','Balance medical vs cosmetic revenue','Brand and clinical-standards playbook','Diversify across geographies'],
+            diligence:['Cosmetic vs medical revenue split and cyclicality','Same-clinic growth and cohort data','Provider recruitment and retention','Add-on pipeline and pricing'],
+            structure:'Illustrative: platform control at ~10–12x EBITDA; estimated check $45–75M. Non-advisory.',
+            decision:'Move to screening; request same-store and provider data.',
+            kpis:{ Mix:'High cash-pay cosmetic', Supply:'Abundant add-ons' } },
+          kestrel: {
+            rec:'Continue screening',
+            overview:'Multi-site US veterinary group (~$67M revenue, ~$14.1M EBITDA, 21% margin) with recurring wellness-plan subscriptions and resilient consumer demand in under-consolidated regions.',
+            market:'Corporate ownership now spans ~25–50% of US general veterinary practices (and ~75% of specialty / ER), yet the GP segment remains fragmented. Strong mid-size groups transact up to ~12x EBITDA on recurring wellness-plan revenue and resilient consumer demand.',
+            levers:['Buy-and-build in the fragmented GP segment','Grow recurring wellness-plan penetration','Add specialty / ER capabilities','Operating leverage across sites'],
+            mitig:['Veterinarian recruiting and retention programmes','Model wage inflation in the base case','Diversify revenue beyond discretionary visits','Disciplined entry vs larger consolidators'],
+            diligence:['Wellness-plan economics and retention','Veterinarian staffing and turnover','Same-store traffic post-normalisation','Acquisition pipeline and pricing'],
+            structure:'Illustrative: platform control at ~10–12x EBITDA; estimated check $55–90M. Non-advisory.',
+            decision:'Continue screening; request wellness-plan cohort data.',
+            kpis:{ Revenue:'Recurring wellness plans', Ownership:'25–50% GP corporatised' } },
+          helvetia: {
+            rec:'Advance from sourcing to screening',
+            overview:'Home-infusion provider (~$49M revenue, ~$11.3M EBITDA, 23% margin) in a scalable, favourably-reimbursed category, with a clinical-complexity moat and DACH-region expansion runway.',
+            market:'Home-infusion therapy is a ~$21B US market growing ~7–8% annually, favoured by a shift of care into lower-cost home settings and improving reimbursement. Clinical complexity creates a moat; scaled, multi-site operators are scarce.',
+            levers:['DACH-region geographic expansion','Therapy-mix expansion into complex infusions','Operating leverage on clinical infrastructure','Payer-contract expansion'],
+            mitig:['Clinical-staff recruiting and training','Local regulatory and licensing support','Diversify the payer base','Structure drug-cost pass-through terms'],
+            diligence:['Reimbursement durability by therapy and country','Clinical staffing and capacity','Drug-cost pass-through economics','Cross-border regulatory requirements'],
+            structure:'Illustrative: control at ~10–12x EBITDA; estimated check $45–80M. Non-advisory.',
+            decision:'Move to screening; request reimbursement and staffing data.',
+            kpis:{ Reimbursement:'Favourable direction', Moat:'Clinical complexity' } },
+          concord: {
+            rec:'Hold in screening pending pricing reset',
+            overview:'Mid-size UK dental group (~$29M revenue, ~$6.2M EBITDA, 21% margin) with a contiguous multi-practice footprint and a mix of NHS and private revenue, returned to screening while sponsor pricing resets to a defensible platform multiple.',
+            market:'~130 PE-backed DSO platforms are active; platform-level groups transact ~8–12x EBITDA versus 5–7x for small groups. Consolidation continues but pricing has reset from prior peaks — favouring disciplined entry on quality footprints.',
+            levers:['Add-on practices to build platform scale','Shift mix toward private revenue','Central back-office and procurement','Associate productivity improvement'],
+            mitig:['Disciplined entry multiple given the reset','Reduce NHS dependence over time','Associate recruitment and retention plan','Phased integration playbook'],
+            diligence:['NHS vs private revenue split and contract terms','Associate coverage and recruitment','Vendor price expectations vs comparables','Add-on pipeline quality'],
+            structure:'Illustrative: platform entry at ~7–9x EBITDA (post-reset); estimated check $20–40M. Non-advisory.',
+            decision:'Re-engage once vendor expectations align with comparables.',
+            kpis:{ Platforms:'~130 PE-backed DSOs', Pricing:'Reset from peak' } },
+          aldgate: {
+            rec:'Hold on watchlist — mandate-exclusion risk',
+            overview:'Urgent-care footprint (~$26M revenue, ~$3.9M EBITDA, 15% margin) with convenient, high-footfall locations but heavy reimbursement exposure and thin margins. Held against the mandate exclusion on government-reimbursement risk.',
+            market:'Urgent-care economics are pressured by reimbursement exposure and thin margins relative to cash-pay specialties; only quality, differentiated assets clear screening. This asset is held against the mandate exclusion on heavy government-reimbursement risk.',
+            levers:['Add ancillary cash-pay services','Improve site-level throughput','Selective location rationalisation'],
+            mitig:['Reduce reimbursement dependence via cash-pay add-ons','Throughput and cost discipline','Staffing-model improvement','Limited — pricing power is constrained'],
+            diligence:['Payer mix and reimbursement exposure','Site-level margin and throughput','Staffing stability'],
+            structure:'Not progressed at this time. Illustrative only; non-advisory.',
+            decision:'Keep on watch; revisit only if payer mix improves materially.',
+            kpis:{ Status:'Mandate-exclusion risk', Margin:'Thin (~15%)' } },
+          sentinel: {
+            rec:'Hold on watchlist pending valuation reset',
+            overview:'Diagnostic-imaging operator in Singapore (~$44M revenue, ~$8.5M EBITDA, 19% margin) with a modern imaging estate and strong metro catchment, held until valuation expectations reset to a defensible range.',
+            market:'Diagnostic imaging is capital-intensive with concentrated single-market exposure; quality estates attract interest but vendor valuation expectations have run ahead of comparables. Holding for a reset.',
+            levers:['Utilisation and referral growth','Modality expansion','Regional referral partnerships'],
+            mitig:['Disciplined entry; await the reset','Phase modality capex','Diversify beyond a single market over time','Radiologist recruitment and partnerships'],
+            diligence:['Valuation vs regional comparables','Equipment age and capex needs','Referral-source concentration','Radiologist staffing'],
+            structure:'Illustrative: revisit at ~7–9x EBITDA post-reset. Non-advisory.',
+            decision:'Revisit after the next funding milestone clarifies pricing.',
+            kpis:{ Estate:'Modern imaging', Status:'Awaiting reset' } },
+          aria: {
+            rec:'Advance to first-round diligence — priority',
+            overview:'Applied-AI imaging-triage and clinical-decision-support platform (~$36M revenue, ~$7.9M EBITDA, 22% margin) embedded in US health-system workflows on recurring multi-year contracts, with a proprietary labelled clinical dataset and a founder-led clinical team.',
+            market:'AI in healthcare is among the fastest-growing categories — ~$38B in 2025 scaling toward several hundred billion by the mid-2030s (~37% CAGR) — with clinical decision support a leading application and physician AI use at ~66% (up from 38% in 2023). The services segment compounds fastest (~43%); defensibility comes from proprietary data, workflow lock-in, and recurring contracts.',
+            levers:['Land-and-expand within existing health systems','Proprietary dataset compounds the model advantage','Recurring multi-year contract base','New clinical modules and use-cases'],
+            mitig:['Engage early on the FDA / clearance pathway','Model-governance and audit framework','Pipeline coverage to offset long sales cycles','Equity incentives to retain ML talent'],
+            diligence:['Contract base, retention, and expansion economics','Regulatory / clearance status by module','Clinical validation and evidence base','Data rights and model-governance posture','Engineering and ML team depth'],
+            structure:'Illustrative: growth investment or control at ~12–14x EBITDA (software-plus-services premium); estimated check $35–60M. Non-advisory.',
+            decision:'Approve founder session, technical / clinical DD, and contract review.',
+            kpis:{ Revenue:'Recurring multi-year', Moat:'Proprietary clinical data' } },
+          cortex: {
+            rec:'Advance to first-round diligence — priority',
+            overview:'AI workflow and care-coordination layer for specialty clinics (~$28M revenue, ~$6.4M EBITDA, 23% margin), sold as software-plus-services with high net revenue retention, deep workflow embedding, and a cross-border (EU) expansion path.',
+            market:'AI in healthcare (~$38B in 2025, ~37% CAGR) is being adopted fast — ~66% of physicians now use health AI. Care-coordination and workflow layers are an emerging premium category where defensibility comes from EHR/workflow lock-in, switching costs, and recurring software-plus-services revenue.',
+            levers:['Cross-border (EU) expansion','High net revenue retention compounds the base','Workflow lock-in drives defensibility','New modules across the clinic stack'],
+            mitig:['GDPR / clinical-compliance framework','Deep EHR / workflow integration moat','Outcomes / ROI evidence programme','Scale a repeatable implementation team'],
+            diligence:['Net revenue retention and cohort economics','Workflow integration depth and switching costs','Data-protection and clinical compliance','Reimbursement-linked ROI evidence','Implementation scalability'],
+            structure:'Illustrative: growth investment at ~11–13x EBITDA; estimated check $25–45M. Non-advisory.',
+            decision:'Approve management session, retention-data review, and technical DD.',
+            kpis:{ Retention:'High net revenue retention', Moat:'Workflow lock-in' } },
+          edgenode: {
+            rec:'Disclosed — handled in a separate lane',
+            overview:'Healthcare-data and analytics company (~$22M revenue) in which Meridian (or an affiliate) holds a vested interest. Routed to the disclosed lane and excluded from the neutral research set.',
+            market:'Held outside the neutral research set under the workspace conflict-disclosure controls.',
+            levers:[], mitig:[], diligence:[],
+            structure:'Not part of the neutral pipeline. The client may exclude it, review it separately, or request a conflict-cleared brief.',
+            decision:'Choose handling: exclude, review separately, or request a conflict-cleared brief.',
+            kpis:{ Status:'Disclosed', Handling:'Separate lane' } }
+        };
+
+        /* ---------- company profile + indicative economics (per deal) ---------- */
+        var PROFILE = {
+          northbridge:{ life:'Established · profitable', founded:2009, sites:'3 clinics', own:'Founder-owned', rec:'High private-pay', check:[25,45], stake:'Control' },
+          atlas:{ life:'Scaling platform', founded:2007, sites:'12 labs', own:'Founder + management', rec:'Contracted reference', check:[40,80], stake:'Growth / control' },
+          cascade:{ life:'Established · profitable', founded:2005, sites:'8 branches', own:'Founder-owned', rec:'Episodic / referral', check:[30,50], stake:'Control' },
+          halcyon:{ life:'Scaling · de-novo', founded:2014, sites:'9 clinics', own:'Founder-owned', rec:'Payer-contracted', check:[30,55], stake:'Control / majority' },
+          lumen:{ life:'Corporate carve-out', founded:2001, sites:'6 sites + ASC', own:'Hospital group', rec:'Cash-pay procedures', check:[45,75], stake:'Carve-out control' },
+          pinnacle:{ life:'Mature · physician-owned', founded:1998, sites:'11 sites + ASC', own:'Physician-owned', rec:'Ancillary + procedures', check:[35,70], stake:'Structured minority' },
+          greycoat:{ life:'Growth', founded:2012, sites:'5 clinics', own:'Founder-owned', rec:'~100% cash-pay', check:[35,55], stake:'Control' },
+          brightpath:{ life:'Scaling platform', founded:2010, sites:'18 clinics', own:'Founder + sponsor', rec:'High cash-pay cosmetic', check:[45,75], stake:'Platform control' },
+          kestrel:{ life:'Scaling platform', founded:2008, sites:'23 hospitals', own:'Founder-owned', rec:'Wellness-plan recurring', check:[55,90], stake:'Platform control' },
+          helvetia:{ life:'Established · scalable', founded:2006, sites:'DACH multi-site', own:'Founder-owned', rec:'Therapy-contracted', check:[45,80], stake:'Control' },
+          concord:{ life:'Mid-market · resetting', founded:2011, sites:'14 practices', own:'Founder + sponsor', rec:'NHS + private', check:[20,40], stake:'Platform' },
+          aldgate:{ life:'Mid-market', founded:2013, sites:'9 sites', own:'Founder-owned', rec:'Reimbursed', check:[15,25], stake:'Hold' },
+          sentinel:{ life:'Established', founded:2010, sites:'6 imaging centres', own:'Sponsor-backed', rec:'Referral', check:[30,50], stake:'Hold' },
+          aria:{ life:'Scaling · founder-led', founded:2018, sites:'US health-system contracts', own:'Founder-led', rec:'Multi-year SaaS + services', check:[35,60], stake:'Growth / control' },
+          cortex:{ life:'Scaling · founder-led', founded:2019, sites:'UK / EU clinics', own:'Founder-led', rec:'High-NRR SaaS + services', check:[25,45], stake:'Growth' },
+          edgenode:{ life:'Disclosed', founded:2017, sites:'—', own:'Affiliate interest', rec:'—', check:[0,0], stake:'Disclosed' }
+        };
+
+        var STAGE = {
+          sourced:   { label:'Sourced',           cls:'os-s-screen',  color:'#78a8c7' },
+          screening: { label:'Screening',          cls:'os-s-screen',  color:'#9fb1bd' },
+          memo:      { label:'Memo in progress',   cls:'os-s-memo',    color:'#ead7aa' },
+          ready:     { label:'Ready for review',   cls:'os-s-ready',   color:'#8fbfa8' },
+          client:    { label:'Client reviewing',   cls:'os-s-client',  color:'#f6e5b8' },
+          watchlist: { label:'Watchlist',          cls:'os-s-watch',   color:'#8a93a0' },
+          archived:  { label:'Archived',           cls:'os-s-watch',   color:'#5e6670' },
+          disclosed: { label:'Disclosed',          cls:'os-s-disc',    color:'#78a8c7' }
+        };
+        var CONF = { v:['Verified','os-tag-verified'], c:['Client-shared','os-tag-client'], e:['Estimated','os-tag-est'] };
+
+        var $ = function (s, r) { return (r || document).querySelector(s); };
+        var live = function () { return DEALS.filter(function (d) { return !d.pending; }); };
+        var evOf = function (d) { return (d.disclosed || !d.ebitda || !d.mult) ? 0 : d.ebitda * d.mult; };
+        var fmtEV = function (d) { var ev = evOf(d); if (!ev) return '—'; return '$' + (ev >= 1000 ? (ev / 1000).toFixed(1) + 'B' : Math.round(ev) + 'M'); };
+        var fitCls = function (f) { return f >= 85 ? 'high' : f >= 75 ? 'mid' : 'low'; };
+        var byId = function (id) { for (var i = 0; i < DEALS.length; i++) if (DEALS[i].id === id) return DEALS[i]; };
+        var activeId = 'northbridge';
+        var currentFilter = 'all', currentSector = 'all', currentSort = 'fit', targetCheck = 50;
+        var prof = function (d) { return PROFILE[d.id] || {}; };
+        var checkStr = function (p) { return (p.check && p.check[1]) ? '$' + p.check[0] + '–' + p.check[1] + 'M' : '—'; };
+        function impliedOwn(d) { var p = prof(d), ev = evOf(d); if (!ev || !p.check || !p.check[1]) return '—'; var lo = Math.min(100, Math.round(p.check[0] / ev * 100)), hi = Math.min(100, Math.round(p.check[1] / ev * 100)); return lo + '–' + hi + '%'; }
+        function ticketFit(d) { var p = prof(d); if (!p.check || !p.check[1]) return null; if (p.check[1] < 25) return ['Below ticket', 'below']; if (p.check[0] > 150) return ['Above ticket', 'above']; return ['Within your ticket', 'within']; }
+        function fitsCheck(d, x) { var p = prof(d); return p.check && p.check[1] && x >= p.check[0] && x <= p.check[1]; }
+        function seedOf(s) { var h = 0; for (var i = 0; i < s.length; i++) h = (h * 31 + s.charCodeAt(i)) % 997; return h; }
+        function scorecard(d) {
+          var f = d.fit, seed = seedOf(d.id);
+          var comps = [['Sector fit', 3], ['Geography', 1], ['Ownership / control', 2], ['Timing & signal', 4], ['Quality of earnings', -3], ['Scalability', -1]];
+          return comps.map(function (c, i) { var off = c[1] + ((seed >> i) % 5) - 2; return [c[0], Math.max(58, Math.min(98, f + off))]; });
+        }
+        var COMPS = {
+          Clinics: [['UK multi-site clinic group', '2024', '~10.5x'], ['European specialty platform', '2023', '~11x'], ['Private clinic roll-up', '2024', '~9.5x']],
+          Diagnostics: [['Regional lab platform', '2024', '~11x'], ['Reference-lab carve-out', '2023', '~10x'], ['Molecular testing group', '2024', '~12x']],
+          'Home care': [['Home-health & hospice platform', '2024', '~8.5x'], ['Aging-in-place operator', '2023', '~8x'], ['Home-infusion group', '2024', '~10.5x']],
+          Behavioral: [['Outpatient PHP/IOP group', '2024', '~10x'], ['Multi-state behavioral roll-up', '2025', '~10.5x'], ['Mental-health platform', '2024', '~9.5x']],
+          Ophthalmology: [['Ophthalmology / ASC platform', '2024', '~12x'], ['Eye-care carve-out', '2023', '~10x'], ['Refractive surgery network', '2024', '~13x']],
+          'Specialty care': [['Specialty MSO platform', '2024', '~11x'], ['Physician group roll-up', '2023', '~10.5x'], ['Ancillary-led platform', '2024', '~12x']],
+          Dental: [['Platform DSO', '2024', '~9.5x'], ['Regional dental group', '2023', '~8x'], ['Multi-practice add-on', '2024', '~7.5x']],
+          Veterinary: [['Veterinary platform', '2024', '~12x'], ['Regional vet group', '2023', '~11x'], ['Specialty / ER network', '2024', '~13x']],
+          'AI-enabled': [['Clinical-AI platform', '2024', '~13x'], ['Health-data analytics', '2025', '~12x'], ['Care-workflow SaaS', '2024', '~12.5x']]
+        };
+        function compsOf(d) { return COMPS[d.cat] || [['Healthcare-services platform', '2024', '~11x'], ['Specialty roll-up', '2023', '~10x']]; }
+        function mgmtNote(d) {
+          var p = prof(d); var sig = (d.signal || '').toLowerCase();
+          var cont = sig.indexOf('succession') >= 0 || sig.indexOf('retiring') >= 0 ? 'Founder approaching transition; a management/leadership layer beneath the founder is to be validated and, if needed, hired.' :
+            sig.indexOf('carve') >= 0 ? 'Carved out of a larger group; a standalone management team and back-office must be stood up.' :
+            sig.indexOf('physician') >= 0 ? 'Physician-owned and -led; partnership economics and ongoing alignment are central to the structure.' :
+            'Founder/management-led with day-to-day continuity expected; depth of the second line is a diligence priority.';
+          return (p.own || 'Ownership') + ' · est. ' + (p.founded || '—') + '. ' + cont;
+        }
+        function processPlan(d) {
+          var first = d.stage === 'ready' ? 'Advance to first-round diligence (mandate-approved)' : (d.stage === 'memo' || d.stage === 'client' ? 'Finalise principal review and confirm appetite' : 'Advisor / management introduction');
+          return [first, 'Quality-of-earnings & management sessions (2–3 weeks)', 'First-round indication of interest', 'Confirmatory diligence & exclusivity', 'Documentation & legal review in the relevant jurisdiction'];
+        }
+
+        function boardCol(d) {
+          if (d.pending || d.disclosed || d.stage === 'archived') return null;
+          if (d.stage === 'ready') return 'ready';
+          if (d.stage === 'memo' || d.stage === 'client') return 'high';
+          if (d.stage === 'screening' || d.stage === 'sourced') return 'research';
+          if (d.stage === 'watchlist') return 'watch';
+          return null;
+        }
+        var COLS = [
+          { key:'ready',    name:'Ready for Review',    dot:'os-c-ready' },
+          { key:'high',     name:'High Priority',       dot:'os-c-high' },
+          { key:'research', name:'Needs More Research',  dot:'os-c-research' },
+          { key:'watch',    name:'Watchlist',           dot:'os-c-watch' }
+        ];
+
+        function ringHTML(fit, lg) { return '<span class="os-ring os-ring-' + fitCls(fit) + (lg ? ' os-ring-lg' : '') + '" style="--v:' + fit + '"><b>' + fit + '</b></span>'; }
+        function actionsHTML(d) {
+          if (d.stage === 'watchlist') return '<button type="button" class="os-act" data-act="review">Move to review</button><button type="button" class="os-act os-act-no" data-act="reject">Reject</button>';
+          return '<button type="button" class="os-act os-act-yes" data-act="interested">Interested</button><button type="button" class="os-act" data-act="research">More research</button><button type="button" class="os-act" data-act="watch">Watchlist</button><button type="button" class="os-act os-act-no" data-act="reject">Reject</button>';
+        }
+        function renderBoard() {
+          var wrap = $('[data-os-board]'); if (!wrap) return;
+          var html = '';
+          COLS.forEach(function (c) {
+            var items = DEALS.filter(function (d) { return boardCol(d) === c.key; });
+            html += '<div class="os-col"><div class="os-col-head"><span class="os-col-dot ' + c.dot + '"></span>' + c.name + ' <em>' + items.length + '</em></div>';
+            items.forEach(function (d) {
+              html += '<article class="os-opp' + (d.fresh ? ' os-opp-fresh' : '') + '" data-id="' + d.id + '">' +
+                '<div class="os-opp-top"><div data-open><strong>' + d.name + (d.fresh ? ' <span class="os-fresh-tag">New</span>' : '') + '</strong><span>' + d.sub + ' · ' + d.geo + '</span></div>' + ringHTML(d.fit) + '</div>' +
+                '<p class="os-why" data-open>' + d.thesis.split('.')[0] + '.</p>' +
+                '<div class="os-opp-econ"><span>' + (prof(d).life || '') + '</span><span>' + checkStr(prof(d)) + ' check</span></div>' +
+                '<div class="os-actions">' + actionsHTML(d) + '</div></article>';
+            });
+            if (!items.length) html += '<p class="os-col-empty">Nothing here right now.</p>';
+            html += '</div>';
+          });
+          wrap.innerHTML = html;
+        }
+        function renderPipeline() {
+          var tb = $('[data-os-table]'); if (!tb) return;
+          var rows = live().filter(function (d) {
+            if (currentFilter === 'ready' && d.stage !== 'ready') return false;
+            if (currentFilter === 'screening' && !(d.stage === 'screening' || d.stage === 'sourced' || d.stage === 'memo')) return false;
+            if (currentFilter === 'watchlist' && d.stage !== 'watchlist') return false;
+            if (currentFilter === 'ticket' && !fitsCheck(d, targetCheck)) return false;
+            if (currentFilter === 'disclosed' && !d.disclosed) return false;
+            if (currentSector !== 'all' && d.cat !== currentSector) return false;
+            return true;
+          });
+          rows.sort(function (a, b) {
+            if (currentSort === 'ev') return evOf(b) - evOf(a);
+            if (currentSort === 'check') return ((prof(b).check && prof(b).check[1]) || 0) - ((prof(a).check && prof(a).check[1]) || 0);
+            if (currentSort === 'name') return a.name.localeCompare(b.name);
+            return b.fit - a.fit;
+          });
+          $('[data-os-empty]').hidden = rows.length > 0;
+          tb.innerHTML = rows.map(function (d) {
+            var s = STAGE[d.stage];
+            var fit = d.disclosed ? '<td class="os-num">—</td>' : '<td class="os-num os-fit-' + fitCls(d.fit) + '">' + d.fit + '</td>';
+            return '<tr ' + (d.disclosed ? 'class="os-row-disc"' : 'class="' + (d.fresh ? 'os-row-fresh' : '') + '" data-id="' + d.id + '"') + '>' +
+              '<td><strong>' + d.name + '</strong>' + (d.fresh ? ' <span class="os-fresh-tag">New</span>' : '') + '</td><td>' + d.sub + '</td><td>' + d.geo + '</td>' +
+              '<td class="os-num">' + fmtEV(d) + '</td>' +
+              '<td class="os-num' + (fitsCheck(d, targetCheck) ? ' os-check-fit' : '') + '">' + checkStr(prof(d)) + '</td>' +
+              '<td><span class="os-stage ' + s.cls + '">' + s.label + '</span></td>' + fit +
+              '<td>' + d.updated + '</td></tr>';
+          }).join('');
+        }
+        function renderReady() {
+          var ul = $('[data-os-ready]'); if (!ul) return;
+          var items = live().filter(function (d) { return d.stage === 'ready'; });
+          ul.innerHTML = items.map(function (d) {
+            return '<li data-id="' + d.id + '"><div class="os-ready-main" data-open><strong>' + d.name + (d.fresh ? ' <span class="os-fresh-tag">New</span>' : '') + '</strong><span>' + d.sub + ' · ' + d.geo + '</span></div>' +
+              '<span class="os-fit os-fit-' + fitCls(d.fit) + '">Fit ' + d.fit + '</span><button type="button" class="os-mini-btn" data-open>Open</button></li>';
+          }).join('');
+        }
+        function renderBars() {
+          var wrap = $('[data-os-bars]'); if (!wrap) return;
+          var regions = [['North America', 82], ['Europe', 71], ['United Kingdom', 44], ['Singapore + Gulf', 53]]; var max = 94;
+          wrap.innerHTML = regions.map(function (r) { return '<div class="os-bar"><span>' + r[0] + '</span><i style="--w:' + Math.round(r[1] / max * 100) + '%"></i><b>' + r[1] + '</b></div>'; }).join('');
+        }
+        function renderKPIs() {
+          var shortlist = live().filter(function (d) { return !d.disclosed && d.fit >= 70; }).length + 18;
+          var ready = live().filter(function (d) { return d.stage === 'ready'; }).length;
+          var ev = live().reduce(function (a, d) { return a + evOf(d); }, 0);
+          var set = function (k, v) { var el = $('[data-os-kpi="' + k + '"]'); if (el) el.textContent = v; };
+          set('shortlist', shortlist); set('ev', '$' + (ev / 1000).toFixed(2) + 'B'); set('ready-sub', ready + ' awaiting review');
+        }
+        /* charts */
+        function renderBarChart() {
+          var wrap = $('[data-os-barchart]'); if (!wrap) return;
+          var byCat = {};
+          live().forEach(function (d) { if (d.disclosed) return; byCat[d.cat] = (byCat[d.cat] || 0) + evOf(d); });
+          var rows = Object.keys(byCat).map(function (k) { return [k, byCat[k]]; }).sort(function (a, b) { return b[1] - a[1]; }).slice(0, 7);
+          var max = rows.length ? rows[0][1] : 1;
+          wrap.innerHTML = '<div class="os-barchart">' + rows.map(function (r) {
+            var val = r[1] >= 1000 ? '$' + (r[1] / 1000).toFixed(1) + 'B' : '$' + Math.round(r[1]) + 'M';
+            return '<div class="os-bc-row"><span class="os-bc-label">' + r[0] + '</span><span class="os-bc-track"><i style="width:' + Math.max(6, Math.round(r[1] / max * 100)) + '%"></i></span><b class="os-bc-val">' + val + '</b></div>';
+          }).join('') + '</div>';
+        }
+        function renderDonut() {
+          var dn = $('[data-os-donut]'), lg = $('[data-os-legend]'); if (!dn) return;
+          var order = ['ready', 'client', 'memo', 'screening', 'sourced', 'watchlist'];
+          var counts = {};
+          live().forEach(function (d) { if (d.disclosed) return; counts[d.stage] = (counts[d.stage] || 0) + 1; });
+          var total = 0; order.forEach(function (s) { total += counts[s] || 0; });
+          var r = 52, C = 2 * Math.PI * r, off = 0, segs = '';
+          order.forEach(function (s) { var n = counts[s] || 0; if (!n) return; var len = n / total * C;
+            segs += '<circle cx="64" cy="64" r="' + r + '" fill="none" stroke="' + STAGE[s].color + '" stroke-width="18" stroke-dasharray="' + len + ' ' + (C - len) + '" stroke-dashoffset="' + (-off) + '" transform="rotate(-90 64 64)"></circle>';
+            off += len; });
+          dn.innerHTML = '<svg class="os-donut" viewBox="0 0 128 128" width="128" height="128">' + segs + '<text x="64" y="60" text-anchor="middle" class="os-donut-num">' + total + '</text><text x="64" y="78" text-anchor="middle" class="os-donut-cap">live</text></svg>';
+          lg.innerHTML = order.filter(function (s) { return counts[s]; }).map(function (s) {
+            return '<span class="os-leg-item"><i style="background:' + STAGE[s].color + '"></i>' + STAGE[s].label + ' <b>' + counts[s] + '</b></span>';
+          }).join('');
+        }
+        function renderDetail() {
+          var d = byId(activeId) || DEALS[0]; var wrap = $('[data-os-detail]'); if (!wrap) return;
+          var s = STAGE[d.stage], p = prof(d), tf = ticketFit(d);
+          var growth = d.growth.map(function (g) { return '<li>' + g + '</li>'; }).join('');
+          var risks = d.risks.map(function (g) { return '<li>' + g + '</li>'; }).join('');
+          var trail = d.sources.map(function (src) { var c = CONF[src[1]]; return '<div><span>' + src[0] + '</span><i class="' + c[1] + '">' + c[0] + '</i></div>'; }).join('');
+          var confCls = d.conf === 'High' ? 'os-conf-high' : 'os-conf-mid';
+          wrap.innerHTML =
+            '<div class="os-detail-head"><div>' +
+              '<span class="os-stage ' + s.cls + '">' + s.label + '</span>' +
+              '<strong>' + d.name + (d.fresh ? ' <span class="os-fresh-tag">New</span>' : '') + '</strong>' +
+              '<span class="os-detail-meta">' + d.sub + ' · ' + d.geo + ' · ' + d.signal + '</span>' +
+            '</div><div class="os-fitbox"><span>Mandate Fit Score</span>' + ringHTML(d.fit, true) + '</div></div>' +
+            '<div class="os-detail-snap">' +
+              '<div><span>Revenue</span><strong>$' + d.rev + 'M</strong></div>' +
+              '<div><span>EBITDA</span><strong>$' + d.ebitda + 'M</strong></div>' +
+              '<div><span>Implied EV</span><strong>' + fmtEV(d) + '</strong></div>' +
+              '<div><span>EV / EBITDA</span><strong>' + d.mult + 'x</strong></div>' +
+            '</div>' +
+            (d.disclosed ? '' :
+            '<div class="os-profile-row">' +
+              '<div><span>Company stage</span><strong>' + (p.life || '—') + '</strong></div>' +
+              '<div><span>Founded</span><strong>' + (p.founded || '—') + '</strong></div>' +
+              '<div><span>Scale</span><strong>' + (p.sites || '—') + '</strong></div>' +
+              '<div><span>Ownership</span><strong>' + (p.own || '—') + '</strong></div>' +
+              '<div><span>Recurring</span><strong>' + (p.rec || '—') + '</strong></div>' +
+            '</div>' +
+            '<div class="os-econ">' +
+              '<div class="os-block-head"><h4>Indicative economics</h4><span class="os-chiplabel">Non-advisory</span></div>' +
+              '<div class="os-econ-grid">' +
+                '<div><span>Deal type</span><strong>' + (p.stake || '—') + '</strong></div>' +
+                '<div><span>Equity check</span><strong>' + checkStr(p) + '</strong></div>' +
+                '<div><span>Implied ownership</span><strong>' + impliedOwn(d) + '</strong></div>' +
+                '<div><span>Ticket fit</span><strong' + (tf ? ' class="os-tf-' + tf[1] + '"' : '') + '>' + (tf ? tf[0] : '—') + '</strong></div>' +
+              '</div>' +
+              '<p class="os-foot-note">Implied ownership ≈ equity check ÷ estimated EV (illustrative, pre-leverage). Your mandate ticket: $25–150M equity. Non-advisory.</p>' +
+            '</div>') +
+            '<div class="os-detail-grid">' +
+              '<article class="os-block"><div class="os-block-head"><h4>Why it fits</h4></div><p>' + d.thesis + '</p></article>' +
+              '<article class="os-block"><div class="os-block-head"><h4>Growth signals</h4></div><ul class="os-ticks">' + growth + '</ul></article>' +
+              '<article class="os-block"><div class="os-block-head"><h4>Risks &amp; unknowns</h4></div><ul class="os-ticks os-ticks-warn">' + risks + '</ul></article>' +
+              '<article class="os-block"><div class="os-block-head"><h4>Source trail</h4><span class="os-conf ' + confCls + '">Confidence: ' + d.conf + '</span></div><div class="os-trail">' + trail + '</div></article>' +
+              '<article class="os-block os-span2 os-context"><div class="os-block-head"><h4>Market context</h4></div><p>' + d.context + '</p></article>' +
+              '<article class="os-block os-span2 os-memo-row"><div><span class="os-memo-ico">PDF</span><div><strong>' + d.name + ' — Principal Review Memo</strong><small>Fit rationale, risks, unknowns, and next decision · updated this cycle</small></div></div><button type="button" class="os-mini-btn" data-doc="' + d.id + '">Open memo</button></article>' +
+            '</div>' +
+            '<div class="os-decision-bar"><span>Your decision</span><div class="os-actions" data-id="' + d.id + '">' +
+              '<button type="button" class="os-act os-act-yes" data-act="interested">Interested — open diligence</button>' +
+              '<button type="button" class="os-act" data-act="research">Needs more research</button>' +
+              '<button type="button" class="os-act" data-act="watch">Watchlist</button>' +
+              '<button type="button" class="os-act os-act-no" data-act="reject">Reject</button>' +
+            '</div></div>';
+        }
+        function renderDocs() {
+          var wrap = $('[data-os-docs]'); if (!wrap) return;
+          var ICON = { pdf:['PDF','os-ico-pdf'], map:['MAP','os-ico-map'], doc:['DOC','os-ico-doc'] };
+          var docs = [
+            { id:'northbridge', t:'Northbridge Specialty Clinics — Principal Review Memo', s:'Fit memo · principal review draft', size:'2.4 MB', date:'14 Jun', k:'pdf' },
+            { id:'atlas', t:'Atlas Diagnostics Group — Principal Review Memo', s:'Fit memo · expansion-capital analysis', size:'2.6 MB', date:'12 Jun', k:'pdf' },
+            { id:'cascade', t:'Cascade Home Health — Principal Review Memo', s:'Fit memo · reimbursement deep-dive', size:'2.2 MB', date:'12 Jun', k:'pdf' },
+            { id:'lumen', t:'Lumen Eye & Surgical — Carve-out Memo', s:'Fit memo · carve-out analysis', size:'3.0 MB', date:'11 Jun', k:'pdf' },
+            { id:'aria', t:'Aria Health AI — Principal Review Memo', s:'Fit memo · AI-enabled diagnostics', size:'2.5 MB', date:'15 Jun', k:'pdf' },
+            { id:'__map', t:'UK Specialty Care — Sector Map', s:'Market structure & consolidation view', size:'5.1 MB', date:'10 Jun', k:'map', pdf:'uk-specialty-care-sector-map' },
+            { id:'__notes', t:'Q2 Mandate Review — Meeting Notes', s:'Principal + CIO · decisions recorded', size:'0.3 MB', date:'09 Jun', k:'doc', pdf:'q2-mandate-review-notes' },
+            { id:'__deck', t:'Pipeline Review Deck — June', s:'Cycle 06 summary & recommendations', size:'8.7 MB', date:'13 Jun', k:'pdf', pdf:'pipeline-review-deck-june' }
+          ];
+          wrap.innerHTML = docs.map(function (doc) { var ic = ICON[doc.k];
+            return '<div class="os-doc"><span class="os-doc-ico ' + ic[1] + '">' + ic[0] + '</span>' +
+              '<div class="os-doc-main"><strong>' + doc.t + '</strong><small>' + doc.s + '</small></div>' +
+              '<span class="os-doc-meta">' + doc.size + '</span><span class="os-doc-meta">' + doc.date + '</span>' +
+              '<button type="button" class="os-mini-btn" data-doc="' + doc.id + '" data-doc-title="' + doc.t + '" data-doc-sub="' + doc.s + '"' + (doc.pdf ? ' data-doc-pdf="./assets/memos/' + doc.pdf + '.pdf"' : '') + '>Open</button></div>';
+          }).join('');
+        }
+        function buildSectorOptions() {
+          var sel = $('[data-os-sector]'); if (!sel) return;
+          var cats = {}; live().forEach(function (d) { if (!d.disclosed) cats[d.cat] = 1; });
+          var keys = Object.keys(cats).sort();
+          sel.innerHTML = '<option value="all">All sub-sectors</option>' + keys.map(function (k) { return '<option value="' + k + '"' + (k === currentSector ? ' selected' : '') + '>' + k + '</option>'; }).join('');
+        }
+        function refreshCounts() {
+          var board = DEALS.filter(function (d) { return boardCol(d) === 'ready' || boardCol(d) === 'high'; }).length;
+          document.querySelectorAll('[data-os-count="board"]').forEach(function (e) { e.textContent = board; });
+          document.querySelectorAll('[data-os-count="pipeline"]').forEach(function (e) { e.textContent = live().filter(function (d) { return !d.disclosed; }).length; });
+        }
+        function renderRecs() {
+          var wrap = $('[data-os-recs]'); if (!wrap) return;
+          var pool = live().filter(function (d) { return !d.disclosed && d.stage !== 'archived' && d.stage !== 'watchlist'; });
+          pool.sort(function (a, b) { return b.fit - a.fit; });
+          wrap.innerHTML = pool.slice(0, 3).map(function (d) {
+            var conf = d.conf === 'High' ? 'os-tag-verified' : (d.conf === 'Medium' ? 'os-tag-client' : 'os-tag-est');
+            var q = (d.risks && d.risks[0]) ? d.risks[0] : 'Confirm ownership and timing.';
+            var p = prof(d), tf = ticketFit(d);
+            return '<article class="os-rec' + (d.fresh ? ' os-rec-fresh' : '') + '" data-id="' + d.id + '">' +
+              '<div class="os-rec-top"><div data-open><span class="os-rec-label">Recommended' + (d.fresh ? ' · New' : '') + '</span><strong>' + d.name + '</strong><span class="os-rec-meta">' + d.sub + ' · ' + d.geo + '</span></div>' + ringHTML(d.fit) + '</div>' +
+              '<p class="os-rec-why"><b>Why recommended:</b> Matches your mandate on ' + d.cat.toLowerCase() + ' with a ' + d.signal.toLowerCase() + ' angle; fit ' + d.fit + ' against your priority themes.</p>' +
+              '<div class="os-rec-match"><span>' + d.cat + '</span><span>' + d.geo + '</span><span>' + d.signal + '</span></div>' +
+              '<div class="os-rec-econ"><span><i>Stage</i>' + (p.life || '—') + '</span><span><i>Check</i>' + checkStr(p) + '</span><span><i>Ticket</i><b' + (tf ? ' class="os-tf-' + tf[1] + '"' : '') + '>' + (tf ? tf[0] : '—') + '</b></span></div>' +
+              '<div class="os-rec-foot"><span class="os-rec-conf ' + conf + '">Source confidence: ' + d.conf + '</span><span class="os-rec-q"><b>Open question:</b> ' + q + '</span></div>' +
+              '<button type="button" class="os-mini-btn" data-open>Open opportunity</button></article>';
+          }).join('');
+        }
+        function renderHeat() {
+          var wrap = $('[data-os-heat]'); if (!wrap) return;
+          var agg = {};
+          live().forEach(function (d) { if (d.disclosed) return; if (!agg[d.cat]) agg[d.cat] = { sum: 0, n: 0 }; agg[d.cat].sum += d.fit; agg[d.cat].n++; });
+          var rows = Object.keys(agg).map(function (k) { return [k, Math.round(agg[k].sum / agg[k].n)]; }).sort(function (a, b) { return b[1] - a[1]; }).slice(0, 6);
+          wrap.innerHTML = rows.map(function (r) {
+            var tr = r[1] >= 82 ? '<i class="os-tr os-tr-up">&#8593;</i>' : (r[1] >= 72 ? '<i class="os-tr os-tr-flat">&#8594;</i>' : '<i class="os-tr os-tr-down">&#8595;</i>');
+            return '<div class="os-heat-row"><span>' + r[0] + '</span><span class="os-heat-track"><i style="width:' + r[1] + '%"></i></span>' + tr + '</div>';
+          }).join('');
+        }
+        function renderLens() {
+          var wrap = $('[data-os-lens]'); if (!wrap) return;
+          var pool = live().filter(function (d) { return !d.disclosed; });
+          var fit = pool.filter(function (d) { return fitsCheck(d, targetCheck); });
+          var aggEV = fit.reduce(function (a, d) { return a + evOf(d); }, 0);
+          var cats = {}; fit.forEach(function (d) { cats[d.cat] = 1; });
+          var evStr = aggEV >= 1000 ? '$' + (aggEV / 1000).toFixed(1) + 'B' : '$' + Math.round(aggEV) + 'M';
+          var list = fit.slice().sort(function (a, b) { return b.fit - a.fit; }).slice(0, 3).map(function (d) {
+            return '<li data-id="' + d.id + '"><div data-open><strong>' + d.name + '</strong><span>' + d.sub + ' · ' + d.geo + '</span></div><span class="os-lens-own">~' + impliedOwn(d) + ' stake</span></li>';
+          }).join('');
+          wrap.innerHTML =
+            '<div class="os-lens-stat"><strong data-countup="' + fit.length + '">' + fit.length + '</strong><span>opportunities fit a $' + targetCheck + 'M equity check, within your $25–150M mandate ticket.</span></div>' +
+            '<div class="os-lens-meta"><div><span>Aggregate EV in range</span><strong>' + evStr + '</strong></div><div><span>Sub-sectors</span><strong>' + Object.keys(cats).length + '</strong></div><div><span>Implied ownership</span><strong>majority / control</strong></div></div>' +
+            (list ? '<ul class="os-lens-list">' + list + '</ul>' : '') +
+            '<p class="os-foot-note">A $' + targetCheck + 'M equity check fits opportunities whose indicative check range spans that amount. Implied stake is illustrative, pre-leverage, and non-advisory.</p>';
+        }
+        function renderAll() { renderBoard(); buildSectorOptions(); renderPipeline(); renderReady(); renderBars(); renderKPIs(); renderBarChart(); renderDonut(); renderRecs(); renderHeat(); renderLens(); refreshCounts(); }
+
+        /* interactions */
+        function activate(tab) {
+          shell.querySelectorAll('[data-os-tab]').forEach(function (n) { n.classList.toggle('is-active', n.getAttribute('data-os-tab') === tab); });
+          shell.querySelectorAll('[data-os-panel]').forEach(function (p) { p.classList.toggle('is-active', p.getAttribute('data-os-panel') === tab); });
+          if (tab === 'overview') countUp();
+        }
+        function openDeal(id) { if (byId(id)) { activeId = id; renderDetail(); activate('detail'); shell.scrollIntoView({ behavior:'smooth', block:'start' }); } }
+
+        var ACT = {
+          interested: { stage:'client',    msg:function (d){ return d.name + ' marked interested — diligence flagged.'; } },
+          research:   { stage:'screening', msg:function (d){ return d.name + ' sent back for more research.'; } },
+          watch:      { stage:'watchlist', msg:function (d){ return d.name + ' moved to watchlist.'; } },
+          reject:     { stage:'archived',  msg:function (d){ return d.name + ' rejected and archived.'; } },
+          review:     { stage:'ready',     msg:function (d){ return d.name + ' moved to ready for review.'; } }
+        };
+        function doAction(id, act) {
+          var d = byId(id), a = ACT[act]; if (!d || !a) return;
+          d.stage = a.stage; renderAll(); if (activeId === id) renderDetail(); toast(a.msg(d));
+        }
+
+        function toast(msg) {
+          var wrap = $('[data-os-toasts]'); if (!wrap) return;
+          var t = document.createElement('div'); t.className = 'os-toast'; t.textContent = msg; wrap.appendChild(t);
+          requestAnimationFrame(function () { t.classList.add('is-in'); });
+          setTimeout(function () { t.classList.remove('is-in'); setTimeout(function () { t.remove(); }, 320); }, 2600);
+        }
+
+        var modal = $('[data-os-modal]');
+        var li = function (x) { return '<li>' + x + '</li>'; };
+        function showModal() { modal.hidden = false; requestAnimationFrame(function () { modal.classList.add('is-open'); }); var card = modal.querySelector('.os-modal-card'); if (card) card.scrollTop = 0; }
+        function section(title, inner) { return inner ? '<section class="memo-section"><h5>' + title + '</h5>' + inner + '</section>' : ''; }
+        function openMemo(d) {
+          var m = MEMOS[d.id] || {}, s = STAGE[d.stage], body = $('[data-os-modal-body]'), p = prof(d), tf = ticketFit(d);
+          var margin = (d.rev && d.ebitda) ? Math.round(d.ebitda / d.rev * 100) + '%' : '—';
+          var profileGrid = (d.disclosed || !p.life) ? '' :
+            '<div class="memo-metrics memo-profile">' +
+              '<div><span>Company stage</span><strong>' + p.life + '</strong></div>' +
+              '<div><span>Founded</span><strong>' + p.founded + '</strong></div>' +
+              '<div><span>Scale</span><strong>' + p.sites + '</strong></div>' +
+              '<div><span>Ownership</span><strong>' + p.own + '</strong></div>' +
+              '<div><span>Recurring</span><strong>' + p.rec + '</strong></div>' +
+            '</div>';
+          var econGrid = (d.disclosed || !p.check || !p.check[1]) ? '' :
+            '<div class="memo-econ">' +
+              '<div><span>Deal type</span><strong>' + p.stake + '</strong></div>' +
+              '<div><span>Equity check</span><strong>' + checkStr(p) + '</strong></div>' +
+              '<div><span>Implied ownership</span><strong>' + impliedOwn(d) + '</strong></div>' +
+              '<div><span>Ticket fit</span><strong' + (tf ? ' class="os-tf-' + tf[1] + '"' : '') + '>' + (tf ? tf[0] : '—') + '</strong></div>' +
+            '</div>';
+          var metrics = d.disclosed ? '' :
+            '<div class="memo-metrics">' +
+              '<div><span>Revenue</span><strong>$' + d.rev + 'M</strong></div>' +
+              '<div><span>EBITDA</span><strong>$' + d.ebitda + 'M</strong></div>' +
+              '<div><span>Margin</span><strong>' + margin + '</strong></div>' +
+              '<div><span>Implied EV</span><strong>' + fmtEV(d) + '</strong></div>' +
+              '<div><span>EV / EBITDA</span><strong>' + d.mult + 'x</strong></div>' +
+              (m.kpis ? Object.keys(m.kpis).map(function (k) { return '<div><span>' + k + '</span><strong>' + m.kpis[k] + '</strong></div>'; }).join('') : '') +
+            '</div>';
+          var scHTML = d.disclosed ? '' : '<div class="memo-score">' + scorecard(d).map(function (c) { return '<div class="memo-score-row"><span>' + c[0] + '</span><span class="memo-score-track"><i style="width:' + c[1] + '%"></i></span><b>' + c[1] + '</b></div>'; }).join('') + '</div>';
+          var compsHTML = d.disclosed ? '' : '<div class="memo-comps"><div class="memo-comps-row memo-comps-head"><span>Comparable transaction</span><span>Year</span><span class="memo-comps-x">EV/EBITDA</span></div>' + compsOf(d).map(function (c) { return '<div class="memo-comps-row"><span>' + c[0] + '</span><span>' + c[1] + '</span><span class="memo-comps-x">' + c[2] + '</span></div>'; }).join('') + '</div><p class="os-foot-note">Illustrative comparables for context, not specific named transactions.</p>';
+          var procHTML = '<ol class="memo-list memo-q">' + processPlan(d).map(li).join('') + '</ol>';
+          var thesis = d.growth && d.growth.length ? '<ul class="memo-list">' + d.growth.map(li).join('') + '</ul>' : '';
+          var levers = m.levers && m.levers.length ? '<ul class="memo-list">' + m.levers.map(li).join('') + '</ul>' : '';
+          var rm = (d.risks && d.risks.length && m.mitig && m.mitig.length) ?
+            '<div class="memo-rm"><div class="memo-rm-row memo-rm-head"><span>Risk</span><span>Mitigant</span></div>' +
+            d.risks.map(function (r, i) { return '<div class="memo-rm-row"><span class="memo-risk">' + r + '</span><span class="memo-mit">' + (m.mitig[i] || '—') + '</span></div>'; }).join('') + '</div>' : '';
+          var trail = d.sources && d.sources.length ? '<div class="os-trail">' + d.sources.map(function (src) { var c = CONF[src[1]]; return '<div><span>' + src[0] + '</span><i class="' + c[1] + '">' + c[0] + '</i></div>'; }).join('') + '</div>' : '';
+          var dil = m.diligence && m.diligence.length ? '<ul class="memo-list memo-q">' + m.diligence.map(li).join('') + '</ul>' : '';
+          var fitBadge = d.disclosed ? '' : '<span class="memo-fit os-fit-' + fitCls(d.fit) + '">Mandate fit ' + d.fit + '</span>';
+          body.innerHTML =
+            '<div class="memo-letter"><span>Meridian Memo · Principal Review Draft</span>' + (d.disclosed ? '<span>Ref. MDP-0417 · Cycle 06</span>' : '<a class="memo-pdf" href="./assets/memos/' + d.id + '.pdf" target="_blank" rel="noopener" download>Download PDF &#8595;</a>') + '</div>' +
+            '<div class="memo-head"><div class="memo-head-tags"><span class="os-stage ' + s.cls + '">' + s.label + '</span>' + fitBadge + '</div><h4>' + d.name + '</h4><p class="memo-sub">' + d.sub + ' · ' + d.geo + ' · ' + d.signal + '</p></div>' +
+            (m.rec ? '<div class="memo-rec"><span>Recommendation</span><strong>' + m.rec + '</strong></div>' : '') +
+            metrics +
+            section('Company profile', profileGrid) +
+            section('Mandate-fit scorecard', scHTML) +
+            section('Business overview', '<p>' + (m.overview || d.thesis) + '</p>') +
+            section('Management &amp; ownership', d.disclosed ? '' : '<p>' + mgmtNote(d) + '</p>') +
+            section('Investment thesis', thesis) +
+            section('Market &amp; competitive context', (m.market || d.context) ? '<p>' + (m.market || d.context) + '</p>' : '') +
+            section('Comparable transactions', compsHTML) +
+            section('Value-creation levers', levers) +
+            section('Risks &amp; mitigants', rm) +
+            section('Source trail &amp; confidence', trail) +
+            section('Key diligence questions', dil) +
+            section('Indicative economics', econGrid) +
+            section('Indicative structure &amp; valuation', m.structure ? '<p class="memo-structure">' + m.structure + '</p>' : '') +
+            section('Indicative process &amp; next steps', procHTML) +
+            (m.decision ? '<div class="memo-decision"><span>Decision asked</span><p>' + m.decision + '</p></div>' : '') +
+            '<p class="os-modal-foot">Research memo for mandate review only. Non-advisory; estimated values are based on public or inferred ranges and are illustrative. Not an offer, solicitation, or investment advice. Demo preview — no file is downloaded on this public page.</p>';
+          showModal();
+        }
+        function openDoc(title, subtitle) {
+          $('[data-os-modal-body]').innerHTML =
+            '<span class="os-modal-tag">Document preview</span><h4>' + title + '</h4><p class="os-modal-sub">' + (subtitle || 'Meridian OS · Document') + '</p>' +
+            '<div class="os-modal-text"><p>This is an illustrative document preview inside the demo workspace. In a live engagement, the original PDF, source-trail snapshot, sector map, or review deck opens here within the permissioned client room.</p></div>' +
+            '<p class="os-modal-foot">Demo preview · no file is downloaded on this public page.</p>';
+          showModal();
+        }
+        function closeModal() { modal.classList.remove('is-open'); setTimeout(function () { modal.hidden = true; }, 240); }
+
+        function countUp() {
+          shell.querySelectorAll('[data-countup]').forEach(function (el) {
+            var target = parseInt(el.getAttribute('data-countup'), 10), t0 = null;
+            function step(ts) { if (!t0) t0 = ts; var p = Math.min((ts - t0) / 650, 1); el.textContent = Math.round(target * (1 - Math.pow(1 - p, 3))); if (p < 1) requestAnimationFrame(step); }
+            requestAnimationFrame(step);
+          });
+        }
+
+        /* live alert: fresh AI deals */
+        var alertEl = $('[data-os-alert]'), alertShown = false, freshRevealed = false;
+        function showAlert() { if (alertShown || freshRevealed) return; alertShown = true; alertEl.hidden = false; requestAnimationFrame(function () { alertEl.classList.add('is-in'); }); }
+        function hideAlert() { alertEl.classList.remove('is-in'); setTimeout(function () { alertEl.hidden = true; }, 320); }
+        function revealFresh() {
+          if (freshRevealed) { hideAlert(); return; }
+          freshRevealed = true;
+          DEALS.forEach(function (d) { if (d.pending) d.pending = false; });
+          renderAll(); hideAlert(); activate('board'); shell.scrollIntoView({ behavior:'smooth', block:'start' });
+          toast('2 AI-enabled opportunities added to your review board.');
+        }
+
+        /* delegated clicks */
+        shell.addEventListener('click', function (e) {
+          var tab = e.target.closest('[data-os-tab]'); if (tab) { activate(tab.getAttribute('data-os-tab')); return; }
+          var go = e.target.closest('[data-os-go]'); if (go) { activate(go.getAttribute('data-os-go')); shell.scrollIntoView({ behavior:'smooth', block:'start' }); return; }
+          var act = e.target.closest('[data-act]'); if (act) { var host = act.closest('[data-id]'); if (host) doAction(host.getAttribute('data-id'), act.getAttribute('data-act')); return; }
+          var docb = e.target.closest('[data-doc]'); if (docb) { var pdfPath = docb.getAttribute('data-doc-pdf'); if (pdfPath) { window.open(pdfPath, '_blank', 'noopener'); return; } var did = docb.getAttribute('data-doc'); var deal = byId(did); if (deal) openMemo(deal); else openDoc(docb.getAttribute('data-doc-title') || 'Document', docb.getAttribute('data-doc-sub')); return; }
+          var toastBtn = e.target.closest('[data-os-toast]'); if (toastBtn) { toast(toastBtn.getAttribute('data-os-toast')); return; }
+          var open = e.target.closest('[data-open]'); if (open) { var h2 = open.closest('[data-id]'); if (h2) openDeal(h2.getAttribute('data-id')); return; }
+          var row = e.target.closest('tr[data-id]'); if (row) { openDeal(row.getAttribute('data-id')); return; }
+        });
+
+        var filter = $('[data-os-filter]');
+        if (filter) filter.addEventListener('click', function (e) {
+          var b = e.target.closest('[data-f]'); if (!b) return;
+          filter.querySelectorAll('[data-f]').forEach(function (x) { x.classList.toggle('is-active', x === b); });
+          currentFilter = b.getAttribute('data-f'); renderPipeline();
+        });
+        var sectorSel = $('[data-os-sector]'); if (sectorSel) sectorSel.addEventListener('change', function () { currentSector = this.value; renderPipeline(); });
+        var sortSel = $('[data-os-sort]'); if (sortSel) sortSel.addEventListener('change', function () { currentSort = this.value; renderPipeline(); });
+        var lensPick = $('[data-os-check]'); if (lensPick) lensPick.addEventListener('click', function (e) { var b = e.target.closest('[data-c]'); if (!b) return; lensPick.querySelectorAll('[data-c]').forEach(function (x) { x.classList.toggle('is-active', x === b); }); targetCheck = parseInt(b.getAttribute('data-c'), 10); renderLens(); renderPipeline(); });
+
+        document.addEventListener('click', function (e) {
+          if (e.target.closest('[data-os-modal-close]')) closeModal();
+          if (e.target.closest('[data-alert-go]')) revealFresh();
+          else if (e.target.closest('[data-alert-close]')) hideAlert();
+        });
+        document.addEventListener('keydown', function (e) { if (e.key === 'Escape' && modal && !modal.hidden) closeModal(); });
+
+        /* ---------- onboarding wizard ---------- */
+        var onb = $('[data-onb]');
+        var onbState = { step: 0, office: 'Bartlett Hale Family Office', email: '', industries: ['Healthcare'], sectors: ['Clinics', 'Diagnostics', 'Specialty care'], geos: ['North America', 'Europe', 'United Kingdom'], ticket: '$25M – $150M', ownership: 'Control or structured minority', cadence: 'Weekly cycle · biweekly call', exclusions: ['Early-stage / pre-revenue', 'Heavy reimbursement risk'], decision: 'Principal + CIO' };
+        var INDUSTRIES = ['Healthcare', 'Technology & AI', 'Consumer & F&B', 'Real estate & infrastructure', 'Industrials & business services', 'Financial services'];
+        var SUBSECTORS = {
+          'Healthcare': ['Clinics', 'Diagnostics', 'Specialty care', 'Dental', 'Home care', 'Behavioral', 'Fertility / IVF', 'Veterinary'],
+          'Technology & AI': ['AI-enabled services', 'Vertical SaaS', 'Data & infrastructure', 'Health-tech', 'Fintech infrastructure'],
+          'Consumer & F&B': ['Multi-site F&B', 'Branded consumer', 'Wellness & beauty', 'E-commerce brands'],
+          'Real estate & infrastructure': ['Healthcare real estate', 'Logistics & industrial', 'Hospitality', 'Digital infrastructure'],
+          'Industrials & business services': ['Specialty manufacturing', 'Facilities & services', 'Distribution', 'Testing & inspection'],
+          'Financial services': ['Wealth & asset management', 'Insurance services', 'Specialty lending', 'Payments']
+        };
+        function onbSubOptions() { var seen = {}, out = []; onbState.industries.forEach(function (ind) { (SUBSECTORS[ind] || []).forEach(function (s) { if (!seen[s]) { seen[s] = 1; out.push(s); } }); }); return out.length ? out : SUBSECTORS['Healthcare']; }
+        var ONB_STEPS = [{ key: 'welcome', label: 'Welcome' }, { key: 'industry', label: 'Industry' }, { key: 'mandate', label: 'Sub-sectors' }, { key: 'prefs', label: 'Preferences' }, { key: 'team', label: 'Team & access' }, { key: 'ready', label: 'Ready' }];
+        function onbChips(name, options, sel) { return '<div class="onb-chips" data-onb-chips="' + name + '">' + options.map(function (o) { return '<button type="button" class="onb-chip' + (sel.indexOf(o) >= 0 ? ' is-on' : '') + '" data-val="' + o + '">' + o + '</button>'; }).join('') + '</div>'; }
+        function onbRender() {
+          $('[data-onb-steps]').innerHTML = ONB_STEPS.map(function (s, i) { return '<div class="onb-step' + (i === onbState.step ? ' is-active' : '') + (i < onbState.step ? ' is-done' : '') + '"><span>' + (i < onbState.step ? '✓' : (i + 1)) + '</span>' + s.label + '</div>'; }).join('');
+          var m = $('[data-onb-main]'), k = ONB_STEPS[onbState.step].key, s = onbState;
+          if (k === 'welcome') m.innerHTML = '<h4>Welcome to Meridian OS</h4><p class="onb-sub">The private engagement room included with your mandate. Let’s set up your workspace — it takes about two minutes.</p>' +
+            '<label class="onb-field"><span>Family office name</span><input data-onb-input="office" value="' + s.office + '" /></label>' +
+            '<label class="onb-field"><span>Primary contact email</span><input data-onb-input="email" type="email" placeholder="principal@office.com" value="' + s.email + '" /></label>';
+          else if (k === 'industry') m.innerHTML = '<h4>Choose your industries</h4><p class="onb-sub">Start broad. Select the industries the office invests across — we’ll narrow to sub-sectors next.</p>' +
+            '<div class="onb-field"><span>Industries</span>' + onbChips('industries', INDUSTRIES, s.industries) + '</div>' +
+            '<p class="onb-note">Most offices anchor on one or two industries. You can run several mandates side by side inside the workspace.</p>';
+          else if (k === 'mandate') m.innerHTML = '<h4>Refine the sub-sectors</h4><p class="onb-sub">Within ' + (s.industries.length ? s.industries.join(', ').replace(/&amp;/g, '&') : 'your industries') + ', what is the office buying? Refine any of this later inside the workspace.</p>' +
+            '<div class="onb-field"><span>Sub-sectors</span>' + onbChips('sectors', onbSubOptions(), s.sectors) + '</div>' +
+            '<div class="onb-field"><span>Geographies</span>' + onbChips('geos', ['North America', 'Europe', 'United Kingdom', 'Singapore', 'Gulf', 'Cross-border'], s.geos) + '</div>' +
+            '<label class="onb-field"><span>Ticket size (equity)</span><select data-onb-input="ticket">' + ['$2M – $10M', '$10M – $50M', '$25M – $150M', '$50M – $250M', '$100M+'].map(function (o) { return '<option' + (o === s.ticket ? ' selected' : '') + '>' + o + '</option>'; }).join('') + '</select></label>' +
+            '<label class="onb-field"><span>Ownership preference</span><select data-onb-input="ownership">' + ['Control', 'Control or structured minority', 'Structured minority', 'Co-investment'].map(function (o) { return '<option' + (o === s.ownership ? ' selected' : '') + '>' + o + '</option>'; }).join('') + '</select></label>';
+          else if (k === 'prefs') m.innerHTML = '<h4>Review preferences</h4><p class="onb-sub">How the desk works with you.</p>' +
+            '<label class="onb-field"><span>Review cadence</span><select data-onb-input="cadence">' + ['Weekly cycle · biweekly call', 'Biweekly cycle · monthly call', 'Monthly cycle'].map(function (o) { return '<option' + (o === s.cadence ? ' selected' : '') + '>' + o + '</option>'; }).join('') + '</select></label>' +
+            '<div class="onb-field"><span>Exclusions</span>' + onbChips('exclusions', ['Early-stage / pre-revenue', 'Single-asset turnarounds', 'Pure real estate', 'Heavy reimbursement risk', 'Regulated lending'], s.exclusions) + '</div>' +
+            '<label class="onb-field"><span>Decision makers</span><input data-onb-input="decision" value="' + s.decision + '" /></label>';
+          else if (k === 'team') m.innerHTML = '<h4>Team &amp; access</h4><p class="onb-sub">Invite the people who will use the workspace. Role-based access keeps every record permissioned.</p>' +
+            '<div class="onb-team">' +
+              '<div class="onb-team-row"><span class="onb-role">Principal</span><input type="email" placeholder="principal@office.com" /></div>' +
+              '<div class="onb-team-row"><span class="onb-role">CIO</span><input type="email" placeholder="cio@office.com" /></div>' +
+              '<div class="onb-team-row"><span class="onb-role">Advisor · view-only</span><input type="email" placeholder="advisor@firm.com" /></div>' +
+            '</div><p class="onb-note">Encrypted &amp; tenant-isolated · full audit trail · conflict disclosure on affiliated lanes.</p>';
+          else if (k === 'ready') m.innerHTML = '<div class="onb-ready"><span class="onb-ready-mark">✓</span><h4>Your workspace is ready</h4>' +
+            '<p class="onb-sub">' + s.office + ' · ' + (s.industries.join(', ').replace(/&amp;/g, '&') || 'Multi-sector') + ' mandate · ' + s.ticket + ' equity</p>' +
+            '<div class="onb-summary">' +
+              '<div><span>Industries</span><strong>' + (s.industries.join(', ') || '—') + '</strong></div>' +
+              '<div><span>Sub-sectors</span><strong>' + s.sectors.slice(0, 4).join(', ') + (s.sectors.length > 4 ? '…' : '') + '</strong></div>' +
+              '<div><span>Geographies</span><strong>' + s.geos.join(', ') + '</strong></div>' +
+              '<div><span>Review cadence</span><strong>' + s.cadence + '</strong></div>' +
+              '<div><span>Ownership</span><strong>' + s.ownership + '</strong></div>' +
+            '</div>' +
+            '<p class="onb-access-note">To activate your live workspace and receive your first opportunity pack, secure your Founding Desk — the next step opens a secure checkout.</p>' +
+            '<button type="button" class="onb-demo-link" data-onb-demo>Explore the demo workspace instead →</button>' +
+            '</div>';
+          $('[data-onb-prog]').textContent = 'Step ' + (onbState.step + 1) + ' of ' + ONB_STEPS.length;
+          $('[data-onb-back]').style.visibility = onbState.step === 0 ? 'hidden' : 'visible';
+          $('[data-onb-next]').textContent = onbState.step === ONB_STEPS.length - 1 ? 'Get access →' : 'Continue →';
+        }
+        function onbOpen() { onbState.step = 0; onb.hidden = false; requestAnimationFrame(function () { onb.classList.add('is-open'); }); onbRender(); }
+        function onbClose() { onb.classList.remove('is-open'); setTimeout(function () { onb.hidden = true; }, 240); }
+        function onbCommit() { onb.querySelectorAll('[data-onb-input]').forEach(function (el) { onbState[el.getAttribute('data-onb-input')] = el.value; }); }
+        function onbFinish() { var id = shell.querySelector('.os-identity strong'); if (id) id.textContent = onbState.office; onbClose(); activate('overview'); shell.scrollIntoView({ behavior: 'smooth', block: 'start' }); toast('Workspace created — welcome, ' + onbState.office.split(' ')[0] + '.'); }
+        document.addEventListener('click', function (e) {
+          if (e.target.closest('[data-onb-open]')) { onbOpen(); return; }
+          if (e.target.closest('[data-onb-close]')) { onbClose(); return; }
+          var chip = e.target.closest('.onb-chip'); if (chip) { var g = chip.closest('[data-onb-chips]').getAttribute('data-onb-chips'); var v = chip.getAttribute('data-val'); var arr = onbState[g]; var idx = arr.indexOf(v); if (idx >= 0) arr.splice(idx, 1); else arr.push(v); chip.classList.toggle('is-on'); return; }
+          if (e.target.closest('[data-onb-demo]')) { onbFinish(); return; }
+          if (e.target.closest('[data-onb-back]')) { onbCommit(); if (onbState.step > 0) { onbState.step--; onbRender(); } return; }
+          if (e.target.closest('[data-onb-next]')) { onbCommit(); if (ONB_STEPS[onbState.step].key === 'industry') { var opts = onbSubOptions(); onbState.sectors = onbState.sectors.filter(function (x) { return opts.indexOf(x) >= 0; }); if (!onbState.sectors.length) onbState.sectors = opts.slice(0, 3); } if (onbState.step < ONB_STEPS.length - 1) { onbState.step++; onbRender(); } else { window.open(STRIPE_ACCESS, '_blank', 'noopener'); toast('Opening secure checkout for access…'); } return; }
+        });
+
+        /* ---------- full screen ---------- */
+        var STRIPE_ACCESS = 'https://buy.stripe.com/dRm4gzcmwdlo6Fzcw0fYY07';
+        var fsBtn = $('[data-os-fs]');
+        function fsExit() { shell.classList.remove('os-fs'); document.body.classList.remove('os-fs-lock'); }
+        if (fsBtn) fsBtn.addEventListener('click', function () { var on = shell.classList.toggle('os-fs'); document.body.classList.toggle('os-fs-lock', on); if (on) shell.scrollTop = 0; });
+        document.addEventListener('keydown', function (e) { if (e.key === 'Escape' && shell.classList.contains('os-fs') && modal.hidden && onb.hidden) fsExit(); });
+
+        /* init */
+        renderAll(); renderDetail(); renderDocs(); countUp();
+        setTimeout(showAlert, 7000);
+      })();
+    </script>
+  </body>
+</html>

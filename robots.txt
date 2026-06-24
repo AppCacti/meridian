@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://meridian-deal-partners.pages.dev/sitemap.xml
