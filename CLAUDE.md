@@ -17,6 +17,19 @@ An AI-driven private-markets origination platform. Humans (Tan, Vivek, Genevieve
 - **Outbound engine is live:** `partners@meridiandealpartner.com` is a real inbox. ~650 sends all-time, ~48 replies, ~12K in queue (morning pulse, 2026-10-15).
 - **Source of truth is Notion, not this repo:** "MERIDIAN DEAL PARTNERS — Command Hub" (pipeline, CRM, execution board, sector intel, memos) and "Meridian State + more" (capability assessment).
 
+### The three layers (Tan's framing, Sept 2026)
+Meridian is really **an intelligence company with an origination business attached**. Positioning line: "the intelligence and origination layer for private markets."
+
+1. **Origination engine.** Monetizes now: deal placement, origination, and transactions, plus research retainers. Fee model under discussion is ~3–7% of transaction value (see hard rule 3).
+2. **Economic connection graph (the "Palantir" layer).** More than 500M records across securities disclosures, private capital, corporate registries, and physical assets. The work is **entity resolution**: who controls what, where capital moves, which counterparties repeatedly transact together. Sub-graphs: ownership, capital, relationship, founder, advisor, portfolio, acquisition. Example: AI infrastructure, linking data-center projects ↔ owners ↔ power generation ↔ grid interconnection ↔ capital providers. The moat is the organized graph, not the models.
+3. **Intelligence layer / Quant Lab.** Filing-based signals and anomaly scores built on the graph. Notion mentions ~375 hand-built signals, purged cross-validation, and 14 live sourcing patterns (e.g. `dso-specialty-gap`, `power-queue-position`, `powered-land-bottleneck`). Long-term ambition: a **quantitative hedge fund** (Renaissance/HRT as reference points) and/or an AlphaSense/Preqin-style financial-intelligence category. Team-building is under way, including a former Citadel quant (author of Power2026.ai).
+
+Flywheel: economic data → relationship graph → intelligence → origination → transactions → more data.
+
+Other surfaces: the client portal at `portal.meridiandealpartner.com` (per-client workspaces such as Tarsadia and Action Black, plus an internal `/command` centre), an AI voice-caller agent, a WhatsApp/WeChat layer in progress for Gulf and Asian deal flow, the "Meridian SuperInteligence" DocSend room, and the Meridian data room on Google Drive. Tan has said he isn't attached to the Meridian name; a "Meridian AI" startup already exists.
+
+Key sources: Tan's emails to Amandeep (Benchmark21), "Quant fund & Meridian Intelligence" (2026-09-10) and "GetBananaSplits + Meridian — strategic update" (2026-09-25); Notion "Meridian State + more"; the Notion reading library tagged "Quant Lab".
+
 ### The agent fleet
 - **Mac (the brain):** launchd daemons that orchestrate everything and never send Meridian mail. `coord.bridge` keeps the fleet's shared coordination board (`SYNC.md` + `tasks.jsonl`) in sync. **That board is the agents' real sync layer, and it lives on the Mac, not in this repo.**
 - **EmpireHub VPS:** data factory plus fleet sender. SEC Form D (raisers), 13F and Form ADV (allocators) pipelines, reply classifier, mandate PDF engine, demand↔supply matching.
@@ -42,7 +55,7 @@ The README and docs reference `public/`, `docs/` and `assets/` folders that were
 3. **No regulated-activity language** (investment advice, brokerage, custody, negotiation, success/transaction fees) on the site or in outreach until counsel approves. Capital raising and placement are regulated (US broker-dealer, UAE DIFC/ADGM); check the partner structure before promising them.
 4. Don't sign clients or collect money before legal review of fee language.
 5. Counterparty claims from calls (mandates, check sizes, track records) are unverified until a research owner confirms them.
-6. Never commit secrets, server IPs, or credentials to this repo.
+6. Never commit secrets, server IPs, or credentials to this repo, including client-portal logins. Some exist in plaintext in email; leave them there.
 
 ## How agents stay in sync
 
